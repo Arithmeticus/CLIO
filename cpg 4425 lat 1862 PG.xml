@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     TAN-version="1 dev"
+     id="tag:chrisnighman.com,2017:cpg-4425-lat-1862">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N"/>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N"/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name>Explanatio in sanctum Iohannem</name>
+      <rights-excluding-sources which="by-sa_4.0" rights-holder="cn"/>
+      <key>
+         <IRI>tag:chrisnighman.com,2017:tan-key:clio</IRI>
+         <name>Vocabulary associated with the Chrysostomus Latinus in Iohannem Online (CLIO) Project</name>
+         <location when-accessed="2017-03-30T13:38:06.306-04:00"
+                   href="TAN-key/CLIO.TAN-key.xml"/>
+      </key>
+      <source>
+         <IRI>tag:chrisnighman.com,2017:scriptum:1862</IRI>
+         <name>1862 Edition in the Patrologia Graeca of the 1728 Edition by Montfaucon</name>
+      </source>
+      <see-also>
+         <relationship which="auxiliary"/>
+         <IRI>tag:chrisnighman.com,2017:auxiliary:Commentarius.docx</IRI>
+         <name>Intermediate transcription of Montfaucon's translation of Chrysostom's Homilies on John</name>
+         <location href="../../Final%20versions%20of%20homily%20transcriptions/Commentarius01%20with%201862%20collation.docx"
+                   when-accessed="2017-02-27-05:00"/>
+         <location href="../../Final%20versions%20of%20homily%20transcriptions/Commentarius02%20with%201862%20collation.docx"
+                   when-accessed="2017-03-18-05:00"/>
+         <location href="../../Final%20versions%20of%20homily%20transcriptions/Commentarius03%20with%201862%20collation.docx"
+            when-accessed="2017-05-06-05:00"/>
+      </see-also>
+      <declarations>
+         <work which="John Chrysostom's 88 homilies on the Gospel of John"/>
+         <div-type xml:id="hom" which="homily"/>
+         <div-type xml:id="sec" which="section"/>
+         <div-type xml:id="sub" which="subsection"/>
+         <div-type xml:id="rubric" which="rubric"/>
+         <div-type xml:id="title" which="title"/>
+         <filter>
+            <normalization which="abbreviations expanded"/>
+         </filter>
+      </declarations>
+      <agent xml:id="cn" roles="editor creator" which="Chris Nighman"/>
+      <agent xml:id="jk" roles="editor" which="Joel Kalvesmaki"/>
+      <agent xml:id="xslt1" roles="stylesheet1">
+         <IRI>tag:kalvesmaki.com,2014:stylesheet:clio:populate-tan-class-1-body-from-docx</IRI>
+         <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+         <desc>Stylesheet at: pre-TAN/CLIO%20Word%20docx%20to%20TAN-T.xsl</desc>
+      </agent>
+      <role xml:id="creator" which="creator"/>
+      <role xml:id="editor" which="editor"/>
+      <role xml:id="stylesheet1" which="stylesheet"/>
+      <change when="2017-02-27-05:00" who="jk">Began file</change>
+      <change who="xslt1" when="2017-03-31T12:46:10.074-04:00">&lt;body&gt; repopulated with contents
+         of the docx file found at pre-TAN/Commentarius01%20with%201862%20collation.docx.</change>
+      <change who="xslt1" when="2017-04-19T13:38:51.895-04:00">&lt;body&gt; repopulated with contents
+         of the docx file found at ../../Final%20versions%20of%20homily%20transcriptions/Commentarius02%20with%201862%20collation.docx.</change>
+   </head>
+   <text>
+      <body xml:lang="lat">
+         <div type="hom" n="1">
+            <div n="title" type="title">
+               <ab>Commentarius</ab>
+            </div>
+            <div n="title 2" type="title">
+               <ab>Homilia I</ab>
+            </div>
+            <div type="sec" n="1">
+               <div type="sub" n="1">
+                  <ab>Agonalium certaminum spectatores, si quando strenuum quempiam athletam jam coronatum accedere comperiant, omnes accurrunt, ut ejus pugnas, artem, robur spectare possint; hincque videas innumerorum hominum theatrum, qui in ea re et mentis et corporis oculis toti incumbunt, ut nihil ad spectaculum pertinens se praeterire possit.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Tum si quis eximius musicus adventaverit, hi omnes similiter theatrum implent, missisque omnibus, quae prae manibus habent, etsi ea saepe necessaria sint et urgentia, conscenso theatro sedent, studioseque cantum et instrumentorum sonum excipientes, de utrorumque concentu disputant. Ita quidem multi.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Qui autem in rhetoricis periti sunt, idipsum erga sophistas praestant. Nam apud istos quoque theatra sunt, et auditores, plausus, strepitus, et dictorum examen exquisitum.</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Quod si rhetorum, tibicinum athletarumque seu spectatores, seu auditores simul et spectatores, cum tanta sedent attentione; quantum studii, quantum diligentiae vos adhibere par est, cum jam non tibicen, non sophista, sed vir de caelo tonitru clariorem emittens vocem, ad spectaculum vos evocet? Totum quippe orbem hoc clamore occupavit, comprehendit, implevit; non clamoris magnitudine, sed lingua ex divinae gratiae motu loquente.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Quodque mirum est, tantus ille clamor, non asper est, non insuavis; sed omni musica harmonia jucundior et desiderabilior captandique majorem vim habens, praeterea sanctissimus est, et admodum tremendus, tot arcanis plenus, tot bona conferens, ut qui diligenter illum excipiunt atque conservant, non jam homines sint, non jam in terra maneant; sed supra saecularia omnia et cum angelis sortem habentes, terram quasi caelum incolant.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Etenim ille tonitrui filius, Christo dilectus, columna omnium quae in orbe sunt ecclesiarum, qui caeli claves habet, qui de calice Christi bibit, et ejus baptismo baptizatus est, qui cum magna fiducia supra pectus Domini recubuit, hic jam nos convenit; non fabulam acturus, non personatus accedit; neque enim talia loquuturus est; non in suggestum ascendit, non orchestram pede percutit, non aurea indutus est veste; sed ingreditur cum singularis pulcritudinis amictu.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Christo enim indutus conspicitur, pedes speciosos calceatos habens in praeparatione Evangelii pacis; zona non pectus, sed lumbos praecinctus, non ex purpurea pelle, neque superne auro ornata, sed ipsa veritate contexta et concinnata. Talis nunc nobis offertur sine larva: nulla enim apud ipsum simulatio, nulla fictio vel fabula; sed nudo capite, nudam nunciat veritatem.</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Neque cum reipsa alius sit, alia ex habitu, oculis, voce auditoribus suadebit; nec instrumentis ad haec nuncianda opus habet, non cithara, non lyra, non alio quovis hujuscemodi; sed omnia per linguam operatur, et quavis cithara vel musica suaviorem utilioremque vocem emittit.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Est illi proscenium, caelum totum; theatrum, orbis; spectatores et auditores, omnes angeli, et ex hominibus quotquot angeli sunt, aut fieri cupiunt. Hi namque soli possunt hanc harmoniam accurate auribus percipere, et operibus exhibere, atque auditores, quales oportet, esse.</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Alii vero omnes, ceu infantes, audiunt quidem, nec tamen audita intelligunt; sed placentis puerilibusque ludis intenti sunt. Ita hi quoque risui, deliciis, opibus, potentiae dediti, ventrique viventes, dicta quidem interdum audiunt; sed nihil magnum vel sublime operibus exhibent, quod se semel lateritio operi et luto dediderint.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Huic Apostolo adstant supernae virtutes, illius animae pulcritudinem, prudentiam virtutisque speciem mirantes, per quam ipsum Christum attraxit, et spiritualem accepit gratiam. Etenim ceu lyram quamdam speciosam lapillis aureisque fidibus ornatam, sic animam componens suam, id effecit ut magnum et excelsum quidpiam spiritu sonaret.</ab>
+               </div>
+            </div>
+            <div type="sec" n="2">
+               <div type="sub" n="1">
+                  <ab>Itaque non ut piscatoris, nec ut filii Zebedaei; sed ut ejus qui profunda Dei novit, Spiritum dico hanc lyram pulsantem, sic audiamus. Nihil enim humanum dicet, sed quidquid loquetur ex spiritualibus abyssis haustum est, ex arcanis illis, quae ne angeli quidem, antequam illa fierent, noverant.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Nam et ipsi nobiscum per Joannis vocem, et per nos didicerunt ea quae nos novimus. Et hoc quoque significavit alius Apostolus his verbis: Ut innotescat nunc principatibus et potestatibus per Ecclesiam multiformis sapientia Dei.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Si ergo principatus, potestates, Cherubim et Seraphim haec per Ecclesiam didicerunt, palam est illos magna cum attentione haec edidicisse. Certe non parvo hinc honore afficimur, quod angeli ea nobiscum audiant, quae ignorabant. Quod autem etiam per nos, nondum dicam quomodo.</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Multum ergo adhibeamus cum modestia silentium, non hodie tantum, aut eo dumtaxat quo audimus die; sed per totam vitam; quia illum omni tempore audire fructuosum est.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Nam si ea quae in regia geruntur, scire optamus; nempe quid Imperator faciat, quid de subditis consulat, etiamsi saepe id nihil ad nos attineat: multo magis quae Deus dixit audire optandum est: cum maxime illa omnia ad nos spectent. Haec porro cuncta accurate ille nobis enarrabit, quod regis amicus sit, imo quod regem in se loquentem habeat, omniaque ab illo audiat, quae ille a Patre accipit: nam ait, Vos dixi amicos, quia omnia quae audivi a Patre meo, nota feci vobis.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Quemadmodum igitur, si quem e summo caelo pronum repente videremus, qui promitteret se nobis caelestia accurate dicturum, omnes accurreremus; ita nunc quoque affecti simus.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Ex caelo namque vir ille nos alloquitur: non enim est ex hoc mundo, ut etiam dicit ipse Christus: Vos de hoc mundo non estis; et Paracletum in se loquentem habet, ubique praesentem, qui ita novit ea quae Dei sunt, ut anima hominis res suas novit; Spiritum nempe sanctitatis, Spiritum rectum, qui dirigit et ducit in caelum, qui novos dat oculos, qui id efficit ut futura tamquam praesentia videamus, et in carne caelestia intueamur.</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Per totam ergo vitam nos ei sedato et tranquillo animo exhibeamus: nemo ignavus, nemo somniculosus, vel maculis respersus hic maneat: sed in caelum nos transferamus, ubi Evangelista loquitur iis qui istic conversantur. Si in terra maneamus, hinc nihil lucri referimus; Joannis quippe disciplina nihil attinet ad eos, qui a vita porcis digna non absistunt, quemadmodum nihil attinent ad eum res humanae.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Tonitru quidem, inconditum emittens sonum, animos nostros perterrefacit; Joannis autem vox neminem fidelium turbat, imo ex tumultu et perturbatione eximit, solisque daemonibus terrori est, et daemonum servis.</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Ut videamus ergo quo pacto illos terreat, et animo sileamus et ore, animo tamen maxime. Quaenam utilitas, cum tacente ore, animus tumultuatur? Animae quietem quaero, quia animam audientem exopto.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Nulla ergo nos commoveat pecuniae cupiditas, nullus gloriae amor, non irae tyrannis, non aliorum affectuum tumultus. Non potest enim non purgatus auditus dictorum sublimitatem ut par est vel capere, vel arcanam et tremendam horumce mysteriorum rationem, caeterasque virtutes omnes in his oraculis contentas accurate cognoscere.</ab>
+               </div>
+               <div type="sub" n="12">
+                  <ab>Si enim tibia et cithara ludere nemo didicerit, nisi iis animum adhibuerit, quomodo mysticas voces quis sedens audiat, si animus in segnitie degat?</ab>
+               </div>
+            </div>
+            <div type="sec" n="3">
+               <div type="sub" n="1">
+                  <ab>Ideo Christus his nos verbis admonet: Nolite dare Sancta canibus, neque projiciatis margaritas ante porcos. Margaritas haec verba vocavit, licet haec margaritis longe preciosiora sint, quia hac materia nulla praestantior.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Ideo horum sermonum suavitatem melli comparare solet, non quod mel ipsam aequare possit, sed quod nihil melle dulcius apud nos sit.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Nam quod et gemmarum precium, et mellis suavitatem longo intervallo superent, audi prophetam haec asserentem his verbis: Desiderabilia super aurum et lapidem preciosum multum, et dulciora super mel et favum; sed bene valentibus tantum; ideo subdidit, etenim servus tuus custodit ea.</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Et alibi quoque, cum dulcia dixisset, addidit, faucibus meis. Quam dulcia, inquit, faucibus meis eloquia tua; et excellentiam efferens addit, super mel et favum ori meo, quia sana mente praeditus erat. Ne itaque morbo affecti haec adeamus, sed post expurgatum animum, hunc cibum sumamus.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Ideo namque tot verbis praemissis, nondum ad haec deveneram, ut singuli omni depulso morbo, ac si in caelum intrarent, sic, ira, curis, sollicitudinibus, caeterisque animi affectibus vacui ingrederentur. Non possumus enim hinc quid magnum lucrari, nisi prius animam ita purgaverimus.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Nec mihi quis dicat, breve tempus inter hanc et sequentem concionem esse. Licet enim non solum dierum quinque spatio, sed etiam uno temporis momento vitam totam mutare. Quid, quaeso, latrone et homicida scelestius? Annon extremum hoc improbitatis genus est?</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Attamen latro ille ad summum virtutis apicem statim pervenit, et in paradisum abiit, nec plurimis diebus, nec dimidio die opus habuit, sed brevi tantum momento. Itaque licet repente mutari, et aureum ex luteo effici. Cum enim neque virtus, neque vitium ex natura insint, facilis est mutatio, omni necessitate libera.</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Si volueritis et audieritis me, inquit, bona terrae comedetis. Viden’ sola opus esse voluntate: voluntate, inquam, non vulgari illa quae plurimorum est, sed diligenti. Scio quippe omnes in caelum avolare velle: sed voluntas operibus exhibenda est.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Siquidem mercator vult ditescere, neque voluntas in cogitatione tantum consistit; sed navim parat, nautas cogit, gubernatorem accersit, caeterisque omnibus navim instruit, aurum mutuatur, pelagus trajicit, in peregrinam terram proficiscitur, pericula multa subit, aliaque plurima patitur, quae norunt ii qui navigare solent. Ita nos oportet voluntatem exhibere.</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Navigamus et nos quoque, non ab alia in aliam terram; sed a terra in caelum. Nos ergo mente apparemus ad gubernationem, quae nos superne ducat, ac nautas obsequentes, firmamque navim nobis comparemus, ne calamitate quadam saeculari vel moestitia demergamur, neve arrogantiae spiritu efferamur, sed leves et expediti simus.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Si ita navim, gubernatorem et nautas paremus, secundo vento navigabimus, Filiumque Dei, verum gubernatorem, ad nos attrahemus, qui non sinet scapham nostram demergi: sed licet innumeri spirent venti, ventos ille increpabit et mare, et vice procellae tranquillitatem efficiet magnam.</ab>
+               </div>
+            </div>
+            <div type="sec" n="4">
+               <div type="sub" n="1">
+                  <ab>Sic comparati ad sequentem accedite concionem: si tamen cupiatis utile quidpiam audire, et in mente reponere. Nemo sit via, nemo petra, nemo spinis repletus.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Faciamus nos ipsos novales: sicque libenti animo semina jaciemus, si nempe terram puram videamus; sin contra petrosam et asperam, ignoscite si nolimus frustra laborare; nam si a serendo desistentes, coeperimus spinas evellere, tunc extremae dementiae esset in terram incultam semina jacere.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Hujus concionis auditorem, non licet mensae daemoniorum esse participem. Quod enim consortium justitiam inter et iniquitatem?</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Stas Joannis auditor, ac per illum ea quae Spiritus sunt ediscis: et postea abscedis meretrices auditurus, obscoena loquentes, obscoeniora repraesentantes, et effoeminatos qui se mutuo alapis caedunt? Quomodo poteris probe ablui et purgari, in tanto coeno volutatus?</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Quid opus est obscoenitatem illam totam minutatim recensere? Omnia illic risus, omnia opprobrium, contumeliae, dicteria: omnia dissolutio, omnia pernicies.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Ecce praedico et annuntio omnibus vobis. Nemo eorum, qui hac mensa fruuntur, animam suam exitiosis illis spectaculis corrumpat. Illa quippe omnia dicta et facta, pompa satanica sunt.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Scitis autem quotquot initiati estis, quae pacta nobiscum inieritis; imo quae cum Christo, quando ille ipse est qui vos initiat: quid illi dixeritis; quae de satanica pompa cum illo verba habueritis; quomodo et satanae et angelis ejus simul abrenunciaveritis, promiseritisque vos ad illa non deflexuros esse?</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Timendum ergo admodum ne quis his violatis promissionibus, sese his indignum mysteriis effecerit. Annon vides quomodo in regiis aedibus, non ii qui in aliquo offenderunt, sed qui in honore habentur, consilii participes advocentur, et inter amicos regis constituantur?</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Legatus nobis de caelo venit, ab ipso Deo missus, de necessariis nos rebus alloquuturus. At vos nihil curantes audire quid velit, quidve loquatur, sedetis mimos audientes. Et quot quantisque fulminibus haec digna non fuerint?</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Ut enim non licet participare mensae daemoniorum, sic nec illa daemoniaca audire fas est, neque sordida veste ad lautam illam mensam tot bonis refertam accedere, quam apparavit ipse Deus. Tanta enim ejus vis est, ut repente nos ad caelum ipsum rapiat: si tamen vigili mente attendamus.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Neque enim qui divinis sermonibus frequenter institutus est, in hoc vili statu manet: sed necessario statim evolat, et sublimem illum petit locum, immensisque potitur thesauris, quos utinam nos omnes consequamur gratia et benignitate Domini nostri Jesu Christi, per quem et cum quo Patri gloria, unaque sancto Spiritui, nunc et semper, et in saecula saeculorum, amen.</ab>
+               </div>
+            </div>
+         </div>
+         <div type="hom" n="2">
+            <div n="title" type="title">
+               <ab>Commentarius</ab>
+            </div>
+            <div n="title 2" type="title">
+               <ab>Homilia II</ab>
+            </div>
+            <div type="sec" n="1">
+               <div type="sub" n="1">
+                  <milestone type="1728" unit="p" n="7"/>
+                  <milestone type="1862" unit="col" n="29"/>
+                  <ab>In principio erat Verbum. Si Joannes nos alloquuturus esset, et sua narraturus, e re foret, ejus genus, patriam et educationem recensere: quia vero non ipse, sed per illum Deus humanam alloquitur naturam, superfluum mihi videtur haec disquirere; imo vero id non supervacaneum fuerit, sed valde necessarium.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Cum enim didiceris quis, unde, a quibus ortus, qualis vir fuerit; deindeque audieris ejus vocem philosophiamque totam; tunc probe scies haec verba non ejus esse, sed divinae virtutis, ejus animam moventis. Qua ergo fuit patria? Nulla quidem patria; sed ex vico prodiit et regione abjecta, quae nihil alicujus precii ferret.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Galilaeam enim contemnunt Scribae cum aiunt: Interroga et vide, quod ex Galilaea non surgit propheta; nihili facit eam ille quoque vere Israelita dicens: Ex Nazareth potest aliquid boni esse? Neque igitur ex insigni quopiam ejus regionis loco erat: sed neque nomen ejus ibi notum; patre piscatore paupere: quin ita paupere, ut filios eadem in arte exerceret.</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Scitis porro omnes, nullum artificem cupere filium suae artis heredem relinquere, nisi summa paupertate coactum; maxime vero si ars sit vilis: piscatoribus vero nihil pauperius, nihil abjectius; imo nihil indoctius. Attamen inter eos, alii majores, alii minores sunt.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Apostolus vero inter minores computabatur: neque enim in mari piscabatur, sed in modico stagno: ibique versantem cum patre et Jacobo fratre, quibuscum retia reficiebat; quod erat extremae paupertatis indicium; Christus vocavit. Hinc intelligitur quam expers fuerit externae disciplinae: alioquin vero Lucas testificatur ipsum non modo idiotam, sed etiam illiteratum fuisse; et jure quidem.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Nam qui ita pauper erat, ut neque forum adiret, neque cum honestis civibus versaretur, sed cum solis piscium cauponibus </ab>
+                  <milestone type="1862" unit="col" n="30"/>
+                  <ab>et coquis, qua in </ab>
+                  <milestone type="1728" unit="p" n="8"/>
+                  <ab>re feris et brutis praeferri potuerit? quomodo non piscium instar mutus fuerit?</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Hic tamen piscator, qui circa stagna, retia et pisces versabatur, ex Bethsaida Galilaeae, patre piscatore paupere, extrema inopia laborante, qui rudis erat et summe imperitus, qui literas nec ante, nec postquam Christo haesit, edidicit, videamus quid loquatur, et quibus de rebus edisserat.</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Num de agris, de fluminibus, de piscium commercio? talia enim fortassis ex piscatore audire quis exspectet. Verum ne timeatis; nihil quippe hujusmodi audiemus; sed caelestia tantum, et quae nemo hactenus edidicit.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Tam sublimia enim dogmata, tam praeclarum vitae institutum, tantamque philosophiam nobis afferet, quantam par est eum, qui ex thesauris Spiritus hausit; tamquam modo ex caelo descenderit; imo neque omnes qui in caelo erant haec scivisse verisimile est, ut jam dixi. Haeccine, quaeso, piscatoris erant? an rhetoris? an sophistae vel philosophi? an cujuspiam externa illa imbuti sapientia? Nequaquam.</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Neque enim humanae mentis prorsus est de immortali illa et beata natura ita philosophari, neque de potestatibus quae post illam sunt, vel de immortalitate et vita aeterna, vel de corporibus mortalibus, quae immortalia postea futura sunt, de supplicio, de futuro tribunali, de rationibus exigendis operum, verborum, cogitationum; scire quid sit homo, quid mundus, quid vere homo sit; quid illud quod videtur esse, cum tamen non sit; quid nequitia, quid virtus.</ab>
+               </div>
+            </div>
+            <div type="sec" n="2">
+               <div type="sub" n="1">
+                  <ab>Horum quaedam Plato et Pythagoras rimati sunt: caeteri namque philosophi non memorandi; ita nempe ridiculi omnes fuerunt.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Qui vero apud illos admirandi et disciplinae principes habentur, hi maxime sunt: qui de republica et de legibus quaedam scripsere, et tamen in omnibus plus quam </ab>
+                  <milestone type="1862" unit="col" n="31"/>
+                  <ab>pueri ridiculi habiti sunt: quod mulieres omnibus communes fecerint, vitam ipsam pessum dederint, et honorem connubii deturparint, aliaque hujusmodi ridicule statuerint; et in his totum vitae tempus insumserint.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>De anima vero doctrinam omnium turpissimam statuerunt, dum animas hominum, muscas, culices, frutices fieri: Deumque ipsum animam esse dicerent; et alia quaedam turpissima assererent. Nec ea solum de causa culpandi; sed et magnus est ipsis verborum </ab>
+                  <milestone type="1728" unit="p" n="9"/>
+                  <ab>Euripus: quemadmodum enim in Euripo huc illuc jactati, sic nunquam in iisdem perstiterunt; utpote qui ex incerta et fluxa mente loquerentur.</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Verum non ita piscator hic, qui omnia certa pronunciat, et quasi in petra stans, nunquam titubat. Cum enim in ipsa adyta induci dignatus sit, et ipsum habeat Dominum in se loquentem, nihil humanum passus est.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>At illi haud secus quam ii qui ne per somnium quidem in regiam admissi sunt, sed in foro cum aliis permixtim hominibus versantur, dum ex propria mente de invisibilibus conjectarent, in summos errores inciderunt, de ineffabilibus disserere agressi, et quasi caeci vel ebrii in ipso errore contra se mutuo impegerunt: nec mutuo tantum alii contra alios, sed etiam secum de iisdem rebus semper pugnant.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Atqui hic illiteratus, rudis, ex Bethsaida, Zebedaei filius; etsi Graeci nominum asperitatem admodum rideant; nihilo tamen minore, imo majore fiducia jam loquar: quanto enim magis barbara ipsis videtur natio illa, et a Graeco instituto aliena, tanto splendidiora nostra videbuntur.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Cum enim barbarus et indoctus ea loquatur, quae nullus hominum unquam noverat; nec loquatur modo, sed etiam suadeat; (quod si illud solum esset, magnum foret miraculum; nunc vero praeter hoc, etiam aliud majus suppeditetur argumentum, quod ea quae dicuntur divinitus inspirata sint, quia nempe auditoribus omnibus semper doctrinam suam persuaserint;) quis immanentem in eo virtutem non mirabitur?</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Illud enim, ut jam dixi, maximo signo est, ipsum non ex seipso doctrinam et leges proferre. Hic itaque barbarus Evangelio suo universum comprehendit orbem; corpore autem mediam tenuit Asiam, ubi olim philosophabantur omnes Graecae disciplinae homines.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Hincque daemonibus est formidabilis, quod in hostium medio fulgeat, illorum caliginem exstinguat, daemonumque arcem diruat; anima autem in eum secessit locum, qui talia operanti competeret. Ac Graecorum quidem opiniones exstinctae deletaeque sunt; hujus vero res quotidie splendidiores evadunt.</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Ex quo enim hic et reliqui piscatores fuerunt; Pythagorae Platonisque disciplinae, quae prius obtinere videbantur, silentio missae sunt, ac ne nomine quidem illos norunt plerique. Atqui Plato tyrannos adiit accitus, ut aiunt, amicos habuit multos, atque in Siciliam navigavit.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Pythagoras vero magnam </ab>
+                  <milestone type="1862" unit="col" n="32"/>
+                  <ab>adiens Graeciam, praestigias induxit innumeras; nam quod cum </ab>
+                  <milestone type="1728" unit="p" n="10"/>
+                  <ab>bobus loqueretur, id enim de illo narratur; non nisi magica arte praestari poterat. Hincque maxime palam est, quod is qui bruta sic alloquebatur, nihil utilitatis hominibus praestaret, imo ipsis multum noceret.</ab>
+               </div>
+               <div type="sub" n="12">
+                  <ab>Certe aptior ad philosophiam erat hominum natura: attamen ille cum aquilis et bobus, ut aiunt, per praestigias loquebatur. Non ille rationis expertem naturam rationalem effecit; id quod homo non potest; sed praestigiis stultos decipiebat.</ab>
+               </div>
+               <div type="sub" n="13">
+                  <ab>Non utili doctrina homines instituebat; sed docebat idem esse fabas edere, et parentum capita devorare: auditoribusque persuadebat, doctoris sui animam, modo fruticem, modo puellam, modo piscem effici. Annon jure illa exstincta penitus deletaque sunt? Certe jure ac merito ut ratio postulabat.</ab>
+               </div>
+               <div type="sub" n="14">
+                  <ab>At non sic illa quae ad rudem illum et illiteratum pertinent: verum Syri, Aegypti, Indi, Persae, Aethiopes, innumeraeque aliae gentes, dogmata ab illo inducta in linguam suam transferentes, barbari licet essent, philosophari didicerunt.</ab>
+               </div>
+            </div>
+            <div type="sec" n="3">
+               <div type="sub" n="1">
+                  <ab>Non ergo frustra dicebam, totum orbem theatrum ipsi fuisse. Neque enim missis congeneribus, vanam brutis instituendis operam ponebat; quod supervacaneum studium et ingens insipientia fuisset; sed et hujus et aliorum expers vitiorum, id unum curabat, ut totus orbis utile quidpiam edisceret, quod posset illum a terra in caelum transferre.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Ideoque non caligine et tenebris doctrinam suam involvit, ut illi, qui pravae doctrinae suae obscuritatem ceu velum quodpiam obtendebant: sed hujus dogmata sunt radiis solaribus clariora; ideo omnibus per orbem hominibus patefacta sunt.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Non enim quinque annorum silentium accedentibus imperabat, ut ille; nec sic docebat, ut insensibilibus lapidibus assideret: neque numeris omnia definiri fabulabatur; sed abjecta omni hujusmodi ingrata doctrina et pernicie Satanica, tantam verbis admiscuit facilitatem, ut non modo viris et sapientibus, sed etiam mulierculis et adolescentibus dicta omnia perspicua essent.</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Illa enim vera et utilia audituris esse confirmavit totum, quod postea sequutum est, tempus: nam totum ad se pertraxit orbem, et ab omni aliena tragoedia vitam nostram liberavit, postquam haec audita fuere. Quapropter quotquot haec audimus animam effundere optamus potius, quam a dogmatibus ab illo traditis absistamus.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Hinc ergo et omni ex parte liquet, nihil humanum ab ipso, sed divina et caelestia esse dogmata, quae a divina illa anima ad nos pervenerunt. Neque enim verborum strepitum, non dictionis fucum, </ab>
+                  <milestone type="1728" unit="p" n="11"/>
+                  <ab>neque nominum verborumque ornatum et compositionem superfluam vel inutilem videbimus; haec quippe procul sunt ab omni philosophia; sed vim invictam et divinam, et rectorum dogmatum immensam virtutem, </ab>
+                  <milestone type="1862" unit="col" n="33"/>
+                  <ab>innumerabiliumque bonorum largitionem.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Nam in praedicatione nimia verborum curiositas superflua esset, et sophistis digna; imo non sophistis, sed pueris insipientibus; ita ut apud eos ipse philosophus induceret magistrum suum quem suae artis pudebat, quique dicebat judicibus, ipsos audituros ab se esse verba sine artificio, et ut casus ferebat, prolata; non exquisitis ornata dictis, non verbis et nominibus selectis fucata.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Neque enim par est, inquiebat, o viri, hujus aetatis virum, adolescentis proferre verba coram vobis judicibus. Ac vide quam sit illud ridiculum: quam enim rem tamquam turpem, philosophia indignam, adolescentiumque opus, magistrum suum fugere dixit, huic maxime ipse operam dedit. Ita ubique ambitioni studebant illi; nihilque praeter hoc in Platone admiratione dignum videtur.</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Ac quemadmodum si sepulcra exterius dealbata aperueris, sanie, foetore,corruptisque ossibus plena videbis; ita si philosophi dogmata dictionis ornatu nudaveris, multa videbis abominatione plena: maxime si de anima philosophetur, quam nimio honore ad blasphemiam usque afficit. Hic enim diabolicus laqueus est, mensuram nusquam servare, sed in utrumque extremorum illo captos per pravam doctrinam deducere.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Nunc enim illam ex Dei substantia esse dicit; nunc illam praeter modum et impie elatam, per alteram hyperbolen deturpat, dum illam in porcos, asinos, inque viliora animantia inducit. Sed haec satis sunto; imo ultra modum de his disseruimus. Si quid enim utile ab illis edisci posset, pluribus iis insistere oportuisset; sin vero tantum quantum ad eorum declarandam turpitudinem satis esset, dicendum oportuit, haec plusquam satis sunt.</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Quare missis illorum fabulis, jam nostra attingamus dogmata, quae nobis per hujusce piscatoris linguam de caelo demissa sunt, quaeque nihil habent humanum. Age ergo, haec dicta in medium afferamus, et ut initio hortati sumus, dictis esse attendendum, hoc nunc iterum monemus.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Quid ergo initio dicit Evangelista? In principio erat Verbum, et Verbum erat apud Deum. Vidistin’ fiduciam et vim verborum maximam? Quomodo nihil dubitans, nihil conjiciens, sed omnia affirmantis more loquatur? Hoc est enim doctoris, non vacillare in iis quae profert.</ab>
+               </div>
+               <div type="sub" n="12">
+                  <ab>Nam si is qui alios instituit, </ab>
+                  <milestone type="1728" unit="p" n="12"/>
+                  <ab>altero opus habeat, qui dicta sua confirmare possit, non doctorum, sed discipulorum ordinem jure obtineat. Si quis vero dixerit, Cur prima omissa causa, statim nobis de secunda disserit? Primum et secundum hic dicere recusabimus: divinitas enim et numero et temporum consequentia superior est. Ideoque his repudiatis, Patrem confitemur ex nullo esse, Filiumque ex Patre natum.</ab>
+               </div>
+            </div>
+            <div type="sec" n="4">
+               <div type="sub" n="1">
+                  <ab>Recte, inquies: Verum cur relicto Patre, de Filio disserit? Quia ille cognitus omnibus erat, si non ut Pater, saltem ut Deus: Unigenitus vero ignorabatur. Ideoque jure a principio statim ejus notitiam indere </ab>
+                  <milestone type="1862" unit="col" n="34"/>
+                  <ab>festinat iis qui ipsum non noverant. Alioquin vero Patrem in hoc sermone non tacuit. Ac vide mihi spiritualem prudentiam.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Novit homines jam olim et ante omnia Deum prae omnibus colere et asserere. Ideo inde principium fecit, et progressus Deum esse dicit. Non sicut Plato alterum mentem, alterum animam esse dicit: haec enim procul sunt a divina illa et immortali natura. Neque enim commune quidpiam nobiscum habet, sed longe est a communicatione cum creaturis; secundum substantiam dico, non secundum habitum.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Ideo Verbum illum appellavit. Cum enim docturus esset hoc Verbum esse unigenitum filium Dei; ne quis generationem passibilem suspicaretur, praemissa Verbi appellatione omnem tollit malam suspicionem, dum et Filium ex ipso esse, et impassibiliter Filium esse declarat.</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Viden’ quomodo, ut jam dixi, cum de Filio loqueretur, Patrem non tacuit? Quod si haec non satis sint ad totam rem declarandam, ne mireris. De Deo namque nobis est sermo, quem pro dignitate neque dicere, neque cogitare possumus. Ideo hic substantiae nomen nusquam ponit: quia nemo potest dicere quid Deus sit secundum substantiam: ubique autem illum nobis ex operibus demonstrat.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Siquidem hoc verbum videre est postea lucem dictum, et lucem rursus appellari vitam. Neque hac solum de causa sic illum vocavit: sed haec prima causa est; secunda, quia quae Patris erant nobis erat nunciaturus; nam ait: Omnia quae audivi a Patre, annunciavi vobis.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Vocat autem illum et vitam et lucem: nam cognitionis lucem nobis dedit, et ex luce vitam. In summa non unum nomen, non duo, non tria, non plura satis sunt ad ea quae Deum spectant edocenda: sed optandum est, ut etiam per multa vel obscure possimus ea quae ad Deum spectant complecti.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Non autem simpliciter Verbum appellavit, sed cum articuli adjectione a reliquis ipsum distinxit. Viden’ me non frustra dixisse hunc Evangelistam nobis </ab>
+                  <milestone type="1728" unit="p" n="13"/>
+                  <ab>de caelo loqui?</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Animadverte enim, quo sublimitatis statim a principio, auditorum mentem et animam evexerit. Postquam enim illam supra omnia quae sub sensum cadunt, supra terram, mare, caelum evexit, etiam supra Cherubim, Seraphim, Thronos, Principatus, Potestates, supra omnem denique creaturam incedere suasit. Quid igitur? An postquam nos ad tantam sublimitatem deduxit, ibi nos sistere potuit?</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Nequaquam: sed perinde ac si quis stantem ad littus maris, ac respicientem urbes, oras, portus; postquam in medium pelagus adduxerit, a prioribus quidem amovit, at aspectui ejus terminos non posuit, sed immensum ipsi spectaculum dedit; sic et Evangelista postquam nos supra omnem creaturam induxit, et ad superiora creaturis saecula misit; sublimem oculum mentis relinquit, qui nullum finem in supernis attingere possit, eo quod nullus sit.</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Nam ubi ad principium ascendit ratio, quaerit quid sit illud principium. Deinde ubi illud, erat, reperit, </ab>
+                  <milestone type="1862" unit="col" n="35"/>
+                  <ab>semper ulterius mente procedens, ubi cogitationem sistat non habet: sed intente respiciens, cum terminum non reperiat, defessus rursum ad inferiora descendit. Illud enim, in principio erat, nihil aliud significat, quam quod semper fuerit, et aeternus sit.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Viden’ veram philosophiam, et divina dogmata, non qualia Graecorum, qui tempora constituunt, et deos alios seniores, alios juniores dicunt? At nihil apud nos simile. Si enim Deus est, ut revera est, nihil est ante illum; si creator omnium, ipse primus est; si dominus et dominator omnium, omnia post ipsum sunt, et opificia, et saecula.</ab>
+               </div>
+               <div type="sub" n="12">
+                  <ab>Volebam in alia certamina descendere, sed fortasse fatiscit vobis animus. Quare post quaedam monita, quae vobis ad dictorum et dicendorum captum erunt utilia, finem dicendi faciam. Quaenam igitur ea sunt?</ab>
+               </div>
+               <div type="sub" n="13">
+                  <ab>Scio multos dictorum longitudinem fastidire. Hoc vero tunc fit, cum anima multis saecularibus curis sarcinisque obruitur. Sicut enim visus, dum purus lucidusque est, acute videt, neque laborat cum vel tenuissima corpora perspicit: quando autem de capite malus humor aliquis defluit, vel densa quaedam nebula, ex infimis partibus ascendens, ante pupillam sistitur, ne crassiora quidem clare perspicere potest; sic et in anima contingit.</ab>
+               </div>
+               <div type="sub" n="14">
+                  <ab>Cum enim expurgata, nullo animi morbo turbatur, acute intuetur ea quae videre opus est; cum porro multis foedata affectibus, virtutem pristinam amiserit, non facile potest sublimia attingere: sed statim fatiscit et decidit, et ad somnum ignaviamque declinat, atque ea, quae ad virtutem et vitam probam pertinent praetermittit: neque illa diligenter adit.</ab>
+               </div>
+            </div>
+            <div type="sec" n="5">
+               <div type="sub" n="1">
+                  <milestone type="1728" unit="p" n="14"/>
+                  <ab>Quod ne vobis accidat; neque enim haec dicendi finem faciam; vestrum roborate animum, ut ne eadem audiatis, quae fidelibus Hebraeis a Paulo dicta sunt. Nam illis grandem dicit esse sermonem et interpretatu difficilem: non quod natura sua talis esset, sed quia, inquit, imbecilles facti estis ad audiendum. Nam qui imbecillus est et infirmus, perinde brevi atque longa oratione turbatur, et quae clara expeditaque sunt, captu difficilia arbitratur.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Verum nullus hic talis esto; sed omni depulsa saeculi cura, quisque hanc doctrinam audiat. Cum enim auditor pecuniarum cupiditate tenetur, non potest certe cupide audire; neque enim potest anima una multis sufficere cupiditatibus; sed alia aliam cupiditatem pellit, et discissa anima infirmior evadit; dum altera praevalens cupiditas, totum ad se trahit: Quod etiam in liberis contingere solet.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Nam cum unum tantum quis habet, eum supra modum amat; cum multos, divisus amor minor ad singulos efficitur. Quod si ubi illa vis et ceu tyrannis est, atque ejusdem generis sunt ii qui diliguntur, ita contingit; quid dixerimus de amore qui ex voluntate et affectu prodit, maxime vero cum amores illi sese </ab>
+                  <milestone type="1862" unit="col" n="36"/>
+                  <ab>mutuo impugnant?</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Contrarius enim est pecuniarum amor doctrinae hujus amori. In caelum intramus cum huc ingredimur. Non de loco, sed de affectu loquor: potest enim qui in terra degit, in caelo stare, et caelestia cogitare, imo audire.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Nemo igitur in caelum terrena inducat: nemo dum hic versatur, de re domestica solicitus sit. Oporteret enim lucra hinc hausta domum et in forum deferri, non autem Ecclesiam domesticis et forensibus sarcinis gravari.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Ideo namque ad doctrinae thronum ingredimur, ut hinc externas illas sordes deponamus. Quod si debeamus hoc tantillum otii externis illis et gestis labefactare, melius esset ab ingressu prorsus abstinuisse. Nemo igitur in Ecclesia res domesticas animo verset; sed domi res Ecclesiae cogitet.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Haec caeteris omnibus nobis sint preciosiora: haec enim ad animam, illa ad corpus pertinent; imo quae hic dicuntur et corpori et animae competunt. Ideo haec quasi praecipua tractentur, alia omnia perfunctorie. Haec quippe et futurae et praesentis vitae sunt; illa ad neutram pertinent, nisi secundum legem de his positam tractentur.</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Non enim solum qui post haec futuri simus, et quomodo illic vivemus, hic ediscimus; sed etiam qua ratione hic nobis sit vivendum. Nam medicamentorum officina spiritualis domus haec est; ut quae vulnera foris accepimus, hic curemus; non autem ut hic aliis acceptis vulneribus recedamus.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Nam si Spiritui </ab>
+                  <milestone type="1728" unit="p" n="15"/>
+                  <ab>sancto nos alloquenti non animum adhibeamus, non modo priora peccata non abluemus, sed etiam alia admittemus. Huic igitur libro nobis per revelationem tradito magna cum diligentia attendamus. Non enim multo postea studio egebimus, si principia et argumenta didicerimus: sed si tantillum initio laboris susceperimus, alios deinde secundum Paulum monere poterimus.</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Hic namque Apostolus admodum sublimis est, multisque plenus dogmatibus, in quibus magis versatur, quam in aliis. Ne, quaeso, perfunctorie audiamus. Ideo enim nos paulatim haec explicamus, ut vobis captu facilia omnia sint, nec ex memoria effluant. Timeamus ergo, ne ex sententia illa culpandi simus, qua dicit: Si non venissem, et loquutus fuissem eis, peccatum non haberent.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Quid plus habebimus, quam ii qui nihil audierunt, quando post concionem nihil domum referemus, sed verba tantum mirati fuerimus? Date nobis igitur, ut in bonam terram semen jaciamus: date, ut nos magis attrahatis. Et si quis spinas habeat, ignem Spiritus injiciat: si quis cor durum et contumax, eodem igne molle illud et tractabile reddat.</ab>
+               </div>
+               <div type="sub" n="12">
+                  <ab>Si quis per viam a turba cogitationum invadatur, interiora petat, nec attendat iis quae ad rapiendum intrare vellent; ut comantes segetes vestras videamus. Nam si eam de nobis curam exhibeamus, et si magno studio spirituali concioni attendamus; si non confestim, saltem paulatim a saecularibus omnibus rebus nos expediemus. Ideo animum adhibeamus, ne de nobis dicatur: aspidis surdae aures eorum.</ab>
+               </div>
+               <div type="sub" n="13">
+                  <milestone type="1862" unit="col" n="37"/>
+                  <ab>Qua in re, quaeso, a fera differt hujusmodi auditor? Quomodo non sit irrationabili quovis irrationabilior, qui Deo loquente non attendit? Nam si placere Deo, illud est homo esse; qui ut hoc adipiscatur audire non vult, nihil aliud, quam fera esse dicatur.</ab>
+               </div>
+               <div type="sub" n="14">
+                  <ab>Cogita ergo quantum sit malum, cum Christus nos velit ex hominibus Angelis aequales facere, si nos ex hominibus in feras transmutemus. Nam ventri servire, pecuniarum cupiditate teneri, irasci, mordere, calcitrare, non hominum, sed ferarum est.</ab>
+               </div>
+               <div type="sub" n="15">
+                  <ab>Atqui ferae singulae suum habent affectum, idque secundum naturam: at homo qui principium cogitationum, et vitam secundum Deum instituendam abjecit, omnibus sese animi morbis addicit; nec modo </ab>
+                  <milestone type="1862" unit="col" n="38"/>
+                  <ab>fera efficitur, sed et multiforme monstrum, neque secundum naturam veniam meretur. Nequitia quippe omnis ex arbitrio et voluntate est.</ab>
+               </div>
+               <div type="sub" n="16">
+                  <ab>Sed absit ut hoc unquam de Ecclesia Christi suspicemur: de vobis enim meliora, quaeque ad salutem ducant, sentimus. Verum quanto magis hoc ita esse confidemus, tanto majorem </ab>
+                  <milestone type="1728" unit="p" n="16"/>
+                  <ab>cautelam in concionibus adhibere non cessabimus; ut postquam ad ipsum virtutum culmen pervenerimus, nobis promissa bona consequamur: quae utinam adipiscamur, gratia et benignitate Domini nostri Jesu Christi, per quem et cum quo Patri gloria, simulque Spiritui sancto in saecula saeculorum, amen.</ab>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

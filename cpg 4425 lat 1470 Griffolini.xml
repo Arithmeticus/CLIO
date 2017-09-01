@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-1-dev/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     TAN-version="1 dev"
+     id="tag:chrisnighman.com,2017:cpg-4425-lat-1470">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N"/>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N"/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name>Explanatio in sanctum Iohannem</name>
+      <rights-excluding-sources which="by-sa_4.0" rights-holder="cn"/>
+      <key>
+         <IRI>tag:chrisnighman.com,2017:tan-key:clio</IRI>
+         <name>Vocabulary associated with the Chrysostomus Latinus in Iohannem Online (CLIO)
+            Project</name>
+         <location when-accessed="2017-03-30T13:38:06.306-04:00"
+                   href="TAN-key/CLIO.TAN-key.xml"/>
+      </key>
+      <source>
+         <IRI>tag:chrisnighman.com,2017:scriptum:1470</IRI>
+         <name>1470 Edition by Griffolini</name>
+      </source>
+      <see-also>
+         <relationship which="auxiliary"/>
+         <IRI>tag:chrisnighman.com,2017:auxiliary:Omelia01.docx</IRI>
+         <name>Transcriptions of Griffolini translations of John Chrysostom's Homilies on John</name>
+         <location href="../../Final%20versions%20of%20homily%20transcriptions/Omelia01%20with%201530%20collation.docx"
+                   when-accessed="2017-02-27-05:00"/>
+         <location href="../../Final%20versions%20of%20homily%20transcriptions/Omelia02%20with%201530%20collation.docx"
+                   when-accessed="2017-02-27-05:00"/>
+         <location href="../../Final%20versions%20of%20homily%20transcriptions/Omelia03%20with%201530%20collation.docx"
+                   when-accessed="2017-03-06-05:00"/>
+         <location href="../../Final%20versions%20of%20homily%20transcriptions/Omelia04%20with%201530%20collation.docx"
+            when-accessed="2017-03-06-05:00"/>
+      </see-also>
+      <declarations>
+         <work which="John Chrysostom's 88 homilies on the Gospel of John"/>
+         <div-type xml:id="hom" which="homily"/>
+         <div-type xml:id="sec" which="section"/>
+         <div-type xml:id="sub" which="subsection"/>
+         <div-type xml:id="title" which="title"/>
+         <filter>
+            <normalization which="abbreviations expanded"/>
+         </filter>
+      </declarations>
+      <agent xml:id="cn" roles="editor creator" which="Chris Nighman"/>
+      <agent xml:id="jk" roles="editor" which="Joel Kalvesmaki"/>
+      <agent xml:id="xslt1" roles="stylesheet1">
+         <IRI>tag:kalvesmaki.com,2014:stylesheet:clio:populate-tan-class-1-body-from-docx</IRI>
+         <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+         <desc>Stylesheet at: pre-TAN/CLIO%20Word%20docx%20to%20TAN-T.xsl</desc>
+      </agent>
+      <role xml:id="creator" which="creator"/>
+      <role xml:id="editor" which="editor"/>
+      <role xml:id="stylesheet1" which="stylesheet"/>
+      <change when="2017-02-27-05:00" who="jk">Began file</change>
+      <change who="xslt1" when="2017-03-30T18:06:15.341-04:00">&lt;body&gt; repopulated with contents
+         of the docx file found at pre-TAN/Omelia01%20with%201530%20collation.docx.</change>
+      <change who="xslt1" when="2017-05-07T09:11:57.979-04:00">&lt;body&gt; repopulated with contents
+         of the docx file found at ../../Final%20versions%20of%20homily%20transcriptions/Omelia03%20with%201530%20collation.docx.</change>
+   </head>
+   <text>
+      <body xml:lang="lat"> 
+         <div type="hom" n="1" part="N" org="uniform" sample="complete">
+            <div n="title"
+                 type="title"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">Omelia I</ab>
+            </div>
+            <div type="sec" n="1" part="N" org="uniform" sample="complete">
+               <div type="sub" n="1" part="N" org="uniform" sample="complete">
+                  <ab part="N">Qui agonum certamina spectare consueuerunt: cum insignem quempiam athletam et coronis plurimis donatum alicunde profectum intelligunt: omnes certatim concurrunt: ut eius luctas artemque et corporis robur conspicent. et uideri quidem nonnunquam uniuersum theatrum licet: multis hominum milibus inundans qui et corporis et animi oculos penitus intendant: ut nihil eorum: que in ipso aguntur spectaculo se pretereat.</ab>
+               </div>
+               <div type="sub" n="2" part="N" org="uniform" sample="complete">
+                  <ab part="N">Tum siquis prestanti ingenio musicus aduentauerit: non minori studio idem ipsi theatrum occupant et omissis omnibus que in manibus habent negociis: et sepenumero necessariis et urgentibus: non minori studio aduolant: sedentque incredibili cantus plaususque accipiendi cupiditate: et de utriusque prestantia inter se disputant. Et hec quidem multi.</ab>
+               </div>
+               <div type="sub" n="3" part="N" org="uniform" sample="complete">
+                  <ab part="N">qui autem rethorum callent rationes: ipsi quoque in sophistis hoc idem contendunt. Quippe et in iis spectacula sunt auditores: plausus: suffragia et inquisitiones eorum que dicuntur: diligentes.</ab>
+               </div>
+               <div type="sub" n="4" part="N" org="uniform" sample="complete">
+                  <ab part="N">Quod si rethorum tibicinumque ac athletarum: et spectatores et auditores eadem consident attentione. quantum nobis studii. quantum diligentie: si recte iudicabimus adhibendum erit. non in tibicinis: neque sophiste aut gladiatoris. sed uiri e celo uocem tonitru clariorem proferentis: spectaculo: qui uniuersum orbem suo clamore cohibuit: comprehendit: implicuit: non nimio quidem. sed diuine gracie exuberantia: que ab eius lingua affatim emanauit?</ab>
+               </div>
+               <div type="sub" n="5" part="N" org="uniform" sample="complete">
+                  <ab part="N">Et quod mirum sit. tantus clamor non asper non iniocundus. sed omni musica armonia suauior: quo nil auditorum aures possit uehementius demulcere. Huc accedit: quod sanctissimus: quod admirationis plenus: et archana redundans sapientia: qui tot tantaque confert bona: ut qui diligenter et accurate eum accipiunt et obseruant: non iam homines: et terre incole habendi sint. sed super omnia huius seculi bona collocentur in angelorum consessu: neque aliter terram quam celum habitant.</ab>
+               </div>
+               <div type="sub" n="6" part="N" org="uniform" sample="complete">
+                  <ab part="N">Tonitrui enim filius est christo dilectissimus: columna omnium: que in orbe sunt ecclesiarum: quod celi claues habet: qui christi calicem bibit: et baptismatis aqua ablutus est: qui super pectus domini multa cum fiducia recubuit. Nunc nos impresentia aggredimur: qui neque fabulas effingit: neque personatus incedit. Non enim huiusmodi loquitur: neque suggestum ascendit: aut orchestram supplodit: aut aureo ornatur uestimento. sed stola purissima amictus progreditur.</ab>
+               </div>
+               <div type="sub" n="7" part="N" org="uniform" sample="complete">
+                  <ab part="N">Christus nanque indutus nobis ostenditur: pedes calceatus decoros in euangelii pacis preparationis zona. non pectus sed lumbos precinctus. non ex purpurea pelle neque deaureata. sed ueritatis decore intexta atque distincta. Talis impresentia Iohannes nobis offertur: nullam neque simulationem: neque fabulam: afferens. que longe ab eo absunt. sed nuda et aperta fronte: nudam et apertam adnunciat ueritatem.</ab>
+               </div>
+               <div type="sub" n="8" part="N" org="uniform" sample="complete">
+                  <ab part="N">Neque alium se uerbis: alium re ipsa: specie: aspectu: uoce persuadendo: exhibet. neque instrumentis indiget ut cithara: lira: et huiusmodi. sed omnia lingua operatur: omni citharedo: omni musica suauius: utiliusque: procinens.</ab>
+               </div>
+               <div type="sub" n="9" part="N" org="uniform" sample="complete">
+                  <ab part="N">Est enim ei proscenium uniuersum celum. theatrum orbis terre. spectatores auditoresque omnes angeli: et quicumque homines aut angeli sunt: aut fieri desiderant. Quippe hi dumtaxat hanc proculdubio possunt armoniam exaudire: eamque re ostendere. tales se auditores quales oportet exhibentes.</ab>
+               </div>
+               <div type="sub" n="10" part="N" org="uniform" sample="complete">
+                  <ab part="N">Siquidem alii omnes non secus ac infantes. audiunt quidem: non tamen audita intelligunt. et placentulis et puerilibus ludis intenti: in delitiis: opibus: potentia: uentri uiuentes: uerba interdum accipiunt. uerum nihil inde magnificum. nihil altum decerpunt. cum latericie prorsus et luto inhereant.</ab>
+               </div>
+               <div type="sub" n="11" part="N" org="uniform" sample="complete">
+                  <ab part="N">Huic autem apostolo superne affuerunt uirtutes: eius anime pulchritudinem: sapientiam: et speciem uirtutis admirantes: per quam ipsum simul hausit Christum: et spiritalem consecutus est gratiam. etenim tanquam liram quandam preciosis lapidibus auroque distinctam: aureo plectro adhibito: sic suam sibi animam exornando effecit: ut per eum magnum et altum spiritu personaret.</ab>
+               </div>
+            </div>
+            <div type="sec" n="2" part="N" org="uniform" sample="complete">
+               <div type="sub" n="1" part="N" org="uniform" sample="complete">
+                  <ab part="N">Quemadmodum igitur neque piscatoris est: neque filii Zebedei. sed eius qui archana misteria intelligat: hanc pulsare liram: sic ei summam prestemus attentionem. Nihil enim nobis humanum. sed a spiritus sancti profundis et abditis thesauris: omnia proloquitur: que neque angeli priusquam hic diceret: nouerunt.</ab>
+               </div>
+               <div type="sub" n="2" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nanque et ipsi nobiscum per Iohannis uocem: et per nos didicerunt: que cognouimus: et quod nobiscum beatus etiam Paulus. his uerbis significauit. Vt innotescat principatibus et potestatibus in celestibus per ecclesiam multiformis sapientie dei.</ab>
+               </div>
+               <div type="sub" n="3" part="N" org="uniform" sample="complete">
+                  <ab part="N">Si igitur principatus et potestates cherubimque et seraphim: hec per ecclesiam didicerunt: plane constat ipsos angelos summa cum attentione eius sese auditores exhibere. Quippe idcirco non parum honoris consequimur. quod nobiscum angeli discant: que nesciunt. Quod autem per nos. longe magis honoramur. Sed per quos uel quales nostrum. nondum diximus.</ab>
+               </div>
+               <div type="sub" n="4" part="N" org="uniform" sample="complete">
+                  <ab part="N">Quamobrem multum hic adhibeamus cum equanimitate silentium. non hodie aut una dumtaxat die. sed per omnem uitam. cum omni tempore huiusmodi audire bonum sit. et perquam utile.</ab>
+               </div>
+               <div type="sub" n="5" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nam si ea que in regiis fiunt domibus cognoscere exoptamus. ut exempli gratia: quid dixerit: fecerit: consuluerit super subditis suis rex. et sepe que nihil ad nos attinent. quantomagis que a deo dicuntur audiendi flagramus desiderio: tum maxime cum ea scire nostra plurimum intersit? Que omnia hic nobis euangelista accurate explicat: cum ipsi regi incredibili sit amore deuinctus. immo et ipsum in se loquentem contineat: audieritque ab eo quecunque ipse a patre acceperit. Vos dixi amicos inquit. quia omnia quecunque audiui a patre meo nota feci uobis.</ab>
+               </div>
+               <div type="sub" n="6" part="N" org="uniform" sample="complete">
+                  <ab part="N">Quemadmodum igitur si quempiam e summo celo descendentem repente conspicaremus: qui arcana illa certo nobis se dicturum polliceretur: omnes certatim concurremus. itidem et nos impresentia faciamus.</ab>
+               </div>
+               <div type="sub" n="7" part="N" org="uniform" sample="complete">
+                  <ab part="N">E celo enim uir hic nos allocutum uenit. neque enim est de hoc mundo: ut ipse testatur christus: cum inquit. Vos de mundo non estis. et paraclitum habet in se loquentem: et ubique presentem: qui tam certe nouit dei misteria: ut res suas humana anima: spiritum santificationis: spiritum rectum: qui nos ducit et trahit in celum: qui aliis nos oculis illuminat: qui nos idoneos reddit ut futura non secus ac presentia contemplemur: qui demum efficit: ut etiam in carne celestia spectare possimus.</ab>
+               </div>
+               <div type="sub" n="8" part="N" org="uniform" sample="complete">
+                  <ab part="N">In omni igitur uita equanimitatem ei atque silentium prestemus. nemini segnitie: nemini somno locus sit. nemo huc accedentium squalore tabescat. sed ad superna unanimes mentes nostras erigamus. Inde enim Iohannes hic eos alloquitur: qui illic quamuis terram incolant: uiuunt. Et profecto in hac uita nihil magnum: nihil exoptabile: adipiscimur. Nihil ad eos qui a brutorum uita emergere nolunt Iohannis doctrina: quemadmodum nihil ad eum res humane.</ab>
+               </div>
+               <div type="sub" n="9" part="N" org="uniform" sample="complete">
+                  <ab part="N">Tonitrus igitur mentes nostras perterret: cum in naturalem sonitum erumpit. at Iohannis uox non modo neminem perturbat fidelium. sed omni liberat perturbatione: atque molestia. solis autem demonibus terrori est et demonum seruis.</ab>
+               </div>
+               <div type="sub" n="10" part="N" org="uniform" sample="complete">
+                  <ab part="N">quod ut nobis certo constet: et animo sileamus et ore. animo tamen maxime. Quenam enim tacentis utilitas: si eius anima perturbationibus estuet? Animi ergo quietem expeto: cuius auribus indigemus.</ab>
+               </div>
+               <div type="sub" n="11" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nulla ergo nos pecuniarum capiat cupiditas: nulla gloria: non ira: non aliorum turba affectuum. Neque enim fieri potest ut qui se non omnino his liberat: ualeat illorum altitudinem intueri: et ut oportet cognoscere misteriorum religionem: arcana: reliquas omnes uirtutes: que his tanquam oraculis delitescunt.</ab>
+               </div>
+               <div type="sub" n="12" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nam si fidibus et tibiis nemo unquam recte scire potest: nisi totum ad id animum intendat. qua nam ratione huiusmodi misteria solo auditu. animo uero alieno: et aliis curis implicito intelliget?</ab>
+               </div>
+            </div>
+            <div type="sec" n="3" part="N" org="uniform" sample="complete">
+               <div type="sub" n="1" part="N" org="uniform" sample="complete">
+                  <ab part="N">Idcirco christus his nos uerbis admonet. Nolite dare sanctum canibus: neque mittatis margaritas uestras ante porcos. Margaritas hec uerba uocauit: que his longe pulchriora prestantioraque sunt.</ab>
+               </div>
+               <div type="sub" n="2" part="N" org="uniform" sample="complete">
+                  <ab part="N">Verum cum ea materia non sit nobis alia carior. idcirco horum sermonum uoluptatem melli sepenumero comparare consueuit: non quod quidquam inter hec conferendum sit: sed quod apud nos nihil est melle suauius.</ab>
+               </div>
+               <div type="sub" n="3" part="N" org="uniform" sample="complete">
+                  <ab part="N">Quod et lapidum preciosorum naturam et cuiusuis mellis uoluptatem plurimum diuina exuperent. audi prophetam quibus uerbis earum asserat prestantiam. Desiderabilia inquit super aurum et lapidem preciosum multum: et dulciora super mel et fauum. sed bene ualentibus tantum: quamobrem subdidit. Etenim seruus tuus custodit ea.</ab>
+               </div>
+               <div type="sub" n="4" part="N" org="uniform" sample="complete">
+                  <ab part="N">Et alio in loco cum suauia dixisset: addidit. faucibus meis. Quam suauia inquit faucibus meis eloquia tua. Et iterum ut eorum significaret excellentiam. Super mel inquit et fauum ori meo. cum in bona esset ualitudine. Non igitur morbo aliquo affecti. sed anime prius cura adhibita: hoc pabulum accipiamus.</ab>
+               </div>
+               <div type="sub" n="5" part="N" org="uniform" sample="complete">
+                  <ab part="N">Propterea tot uerbis premissis: nondum rem ipsam aggressus sum: ut quisque omni abiecta egritudine: tanquam celum petens: ira: sollicitudine: secularique omni impedimento uacuus: huc liber ingrediatur. Etenim nihil in hac uita magnum (nisi prius omni animi perturbatione amota) adipisci possumus.</ab>
+               </div>
+               <div type="sub" n="6" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nec mihi quispiam dixerit: breue tempus inter hanc et futuram esse contionem. Non enim quinque dumtaxat diebus. sed uno momento licet preteritam omnem uitam commutare. Quid inquam latrone et homicida scelestius. Nonne hoc summum malicie genus est?</ab>
+               </div>
+               <div type="sub" n="7" part="N" org="uniform" sample="complete">
+                  <ab part="N">Verum ad ipsum uirtutis apicem quamprimum euasit: et in ipsam assumptus est paradisum: nec dierum: nec dimidie quidem hore: sed breuis tantum momenti indiguit. Eadem et nos ratione: repente mutari possumus: et ex luteis aurei fieri. Cum enim neque uirtus: neque uicium: a natura sit: facilis ad utrumuis transitus datur: cum nulla cogat necessitas.</ab>
+               </div>
+               <div type="sub" n="8" part="N" org="uniform" sample="complete">
+                  <ab part="N">Si uolueritis inquit et uerba mea audieritis: bona terre comedetis. Vides ne sola nobis opus esse uoluntate? Voluntate inquam non qualibet: et que nonnullorum est. uerum et diligenti et exquisita? Neminem noui qui impresentia ad celum euolare nollet. re tamen ipsa oportet uoluntatem confirmare.</ab>
+               </div>
+               <div type="sub" n="9" part="N" org="uniform" sample="complete">
+                  <ab part="N">Siquidem mercator. ditescere cupit. non tamen eius animus soli acquiescit cupiditati. sed nauem parat: nautas cogit: hortatur gubernatorem. et alia que nauigationi opus sunt diligenter disponit. aurum preterea mutuatur. mare traiicit: et innumeris periculis quibus se mari credentes iactari consueuerunt: se exponens: peregrinas appellit terras. Itidem et nos oportet uoluntatem rei applicare.</ab>
+               </div>
+               <div type="sub" n="10" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nauigamus nanque et nos nauigationem: non ab alia in aliam terram. sed a terra in celum. Quare tota mente intendamus ad eam gubernationem: que nos superne erigat: et nautas rationi obsequentes: et nauem nobis firmam comparemus: ne temptationum procellis: aut ullis secularibus demergatur affectibus. neque superbie spiritu efferatur. sed leuis et expedita ad superna euadat.</ab>
+               </div>
+               <div type="sub" n="11" part="N" org="uniform" sample="complete">
+                  <ab part="N">Quod si hac ratione nauem nobis: et gubernatorem: et nautas parabimus. secundo uento nauigare: et dei filium uerum gubernatorem nobis conciliare poterimus: qui nauiculam nostram usquam allidi non patietur. sed licet innumeri spirent uenti. et uentos sedabit et mare tranquillissimum reddet.</ab>
+               </div>
+            </div>
+            <div type="sec" n="4" part="N" org="uniform" sample="complete">
+               <div type="sub" n="1" part="N" org="uniform" sample="complete">
+                  <ab part="N">Tales crastine assimus contioni opere pretium est: aliquid hinc utilitatis accipere et mente recondere. Nemo uia esse uelit: nemo petra. nemo spinosus ager.</ab>
+               </div>
+               <div type="sub" n="2" part="N" org="uniform" sample="complete">
+                  <ab part="N">sed bona terra. hoc pacto prompto fidentique animo bene culto: et subacto agro: semina mandabimus. Quod si lapidosum et incultum uiderimus: dabitis ueniam: si illic serere recusabimus. sed omissa satione spine prius incidende erunt. Summe nanque dementie semina in incultam terram iacere.</ab>
+               </div>
+               <div type="sub" n="3" part="N" org="uniform" sample="complete">
+                  <ab part="N">Qui his uacat sermonibus: eum non decet demonis habere consuetudinem. Que nam enim iusticie et iniquitatis communitas?</ab>
+               </div>
+               <div type="sub" n="4" part="N" org="uniform" sample="complete">
+                  <ab part="N">Audisti Iohannem: et ab eo spiritalia didicisti? Deinde fornicatum abis: auditurus mulieres obscena loquentes: obsceniora dissimulantes: quique effeminati se inuicem alapis cedunt: et qua nanque ratione cum tanto in sceno prouolutus iaceas: bene ablui et mundari poteris?</ab>
+               </div>
+               <div type="sub" n="5" part="N" org="uniform" sample="complete">
+                  <ab part="N">Et quid sigillatim me omne uicium describere hoc in loco oportet? Omnia enim illic: risus sunt: turpitudo: exprobratio: maledicta: opprobria: conuicia: omnia corruptio: omnia lues.</ab>
+               </div>
+               <div type="sub" n="6" part="N" org="uniform" sample="complete">
+                  <ab part="N">Ecce predico et adnuncio omnibus uobis. nemo qui hac mensa fruitur: animam suam mortiferis illis perturbet spectaculis. Quidquid illic dicitur. sathane pompa est et lasciuia.</ab>
+               </div>
+               <div type="sub" n="7" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nostis sacris iniciati: quo federe nobis uos astrinxeritis. et ut uerius dicam christo. cum uos ipse edoceret quid ei dixistis? Que super sathane pompa cum eo uerba habuistis? quo pacto ei et angelis eius tunc abrenunciastis? promisistisque nulla ei in re assensum prestare.</ab>
+               </div>
+               <div type="sub" n="8" part="N" org="uniform" sample="complete">
+                  <ab part="N">Quamobrem non parum nobis curandum est: ne in his promissionibus perfidie arguamur: ne ue nosipsos his indignos reddamus misteriis. Nonne animaduertis quod in regiis domibus non nequam et perfidi. sed probitate et fide probati uiri ad regis consilia: et in regios amicos: aduocantur?</ab>
+               </div>
+               <div type="sub" n="9" part="N" org="uniform" sample="complete">
+                  <ab part="N">Legatus nobis de celo ab omnipotenti deo demissus uenit. res nobis pernecessarias adnuncians: cuius neglecta legatione: ad mimos diuertitis. Et quo hec digna supplicio: quibusue fulminibus et flagellis?</ab>
+               </div>
+               <div type="sub" n="10" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nam quemadmodum nulla demonum consuetudine: ita neque auditu: uti oportet. neque in sordida ueste ad lautissimam dei mensam: tot tantisque bonis affluentem: accedendum: quam ipse nobis preparauit: cuius tanta uis est: ut ad celum ipsum repente nos rapiat: modo sobrie uiuamus.</ab>
+               </div>
+               <div type="sub" n="11" part="N" org="uniform" sample="complete">
+                  <ab part="N">Neque enim fieri potest: ut qui frequenter diuinis uacat sermonibus. is miseram uitam agat. Euolat enim quamprimum et supernam petit patriam: et innumeros consequitur bonorum thesauros quibus utinam et nos fruamur: Gratia et benignitate domini nostri Ihesu christi: per quem et cum quo patri gloria simul et spiritui sancto in secula.</ab>
+               </div>
+            </div>
+         </div>
+         <div type="hom" n="2" part="N" org="uniform" sample="complete">
+            <div n="title"
+                 type="title"
+                 part="N"
+                 org="uniform"
+                 sample="complete">
+               <ab part="N">Omelia II</ab>
+            </div>
+            <div type="sec" n="1" part="N" org="uniform" sample="complete">
+               <div type="sub" n="1" part="N" org="uniform" sample="complete">
+                  <ab part="N">In principio erat uerbum. Cum Iohannes hoc libro doctrinam suam nobis adnunciaturus sit: necesse est et genus patriamque et uitam eius ostendere. Verum cum non ipse. sed per ipsum deus humanam alloquatur naturam: superuacaneum uideri posset: huiusmodi impresentia disquirere. Sed profecto admodum peropus est.</ab>
+               </div>
+               <div type="sub" n="2" part="N" org="uniform" sample="complete">
+                  <ab part="N">quippe cum: quis Iohannes fuerit: et unde: et quibus ortus parentibus: deinde eius uocem: sapientiamque: didiceris. non illius esse doctrinam. sed diuine uirtutis que eius animam inspirauerit: plane cognosces. Qua igitur fuit patria? Nulla quidem sed e uilla: et regione abiecta: nulli rei utili.</ab>
+               </div>
+               <div type="sub" n="3" part="N" org="uniform" sample="complete">
+                  <ab part="N">Galileam enim contemnunt scribe cum inquiunt. Interroga et uide: quod ex galilea non surrexit propheta. Nec non et uerus isrealita. Ex nazaret potest aliquid boni esse? Huiusmodi Iohannes patria: non modo non insigni aliqua familia. sed ne nota quidem. ortus est patre piscatore: adeo paupere: ut eandem artem filios erudiret.</ab>
+               </div>
+               <div type="sub" n="4" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nemo autem ignorat nullum opificem cupere sibi filium sue artis heredem relinquere: nisi nimia paupertate cogatur: maxime si ars eius uilis sit et abiecta. piscatoribus uero nihil pauperius: nihil abiectius: addo etiam indoctius. In eorum autem numero alii aliis prestant.</ab>
+               </div>
+               <div type="sub" n="5" part="N" org="uniform" sample="complete">
+                  <ab part="N">hunc autem apostolum ex uilioribus fuisse id argumentum est: quod non in mari. sed paruo quodam in stagno: cum patre et Iacobo fratre piscabatur: scissaque resartiebat retia: quod non modice erat paupertatis indicium. Sic eum uocauit christus. Ex his sane intelligi potest: quam expers fuerit externe doctrine: et omnium penitus studiorum. Lucas etiam non solum indoctum. sed ignarum omnino litterarum fuisse testatur. et recte quidem.</ab>
+               </div>
+               <div type="sub" n="6" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nam qui cum adeo inopia laboraret: ut nec in foro uersaretur: neque uirorum prestantium ullam haberet consuetudinem. sed piscationi toto animo intenderet: uel si cui aliquando congrederetur: si piscatores essent: et coqui. quidnam feris et brutis prestare debuisset? Quid non potius piscium more obmutuisset?</ab>
+               </div>
+               <div type="sub" n="7" part="N" org="uniform" sample="complete">
+                  <ab part="N">Hic tamen piscator circum stagna: retia: pisces semper uersatus: a bethsaiida galilee: patre piscatore paupere et rudi: qui litteras neque ante: neque postquam christum secutus est usquam didicit. uideamus quid loquitur: quam aggreditur disputationem.</ab>
+               </div>
+               <div type="sub" n="8" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nunquid de rebus agrestibus aut fluuialibus quibus ue instrumentis pisces capiantur? Huiusmodi enim a piscatore cognoscere quispiam exspectaret. uerum aliud narrantem audiemus. hoc est que in celo sunt: et que nemo unquam antehac intellexit.</ab>
+               </div>
+               <div type="sub" n="9" part="N" org="uniform" sample="complete">
+                  <ab part="N">Talem enim et tam profundam doctrinam: uitam optimam philosophiam ad nos affert: qualem credibile est ab ipsis spiritus sancti thesauris accepisse: tanquam modo ex ipso celo descenderit. Immo neque omnes qui in celo sunt: scire ea credendum est: ut iam diximus. Nunquid hec tibi piscatoris uidentur: an oratoris potius an philosophi: an alius cuiuspiam in hac exteriore edocti sapientia? Nequaquam.</ab>
+               </div>
+               <div type="sub" n="10" part="N" org="uniform" sample="complete">
+                  <ab part="N">Non enim humane simpliciter est anime de immortali et beata illa natura: et que cum illa sunt potestatibus. de natura corporum mortalium. et eorum futura immortalitate: de supplitio: de futuro iudicio: de uerborum: operum: cogitationum: et sententie uniuscuiusque examinibus intelligere: quid homo sit: quid mundus: quid uere sit. quid cum non sit esse uideatur. quid uicium. quid uirtus.</ab>
+               </div>
+            </div>
+            <div type="sec" n="2" part="N" org="uniform" sample="complete">
+               <div type="sub" n="1" part="N" org="uniform" sample="complete">
+                  <ab part="N">Horum nanque nonnulla platonici et pithagorei inuestigare contenderunt. Neque enim reliqui nobis philosophi memorandi sunt qui in huiusmodi disputationibus perridiculi reperiuntur. ii etiam qui apud eos pre ceteris admirationi fuerunt et illius scientie habiti sunt principes:</ab>
+               </div>
+               <div type="sub" n="2" part="N" org="uniform" sample="complete">
+                  <ab part="N">ii maxime sunt qui et respublicas et leges condiderunt: in quibus longe magis quam pueri sunt deridendi. cum mulieres omnibus communes instituerint. et mores et nuptiarum pudorem omnemque denique uitam tam ridiculis corrumperent sanctionibus.</ab>
+               </div>
+               <div type="sub" n="3" part="N" org="uniform" sample="complete">
+                  <ab part="N">Vt autem doctrinam aliquam de anima afferrent: nihil turpitudinis reliquerunt. Quippe qui mures: culices: frutices: hominum animas fieri: et deum ipsum animam esse. et alia quedam huiusmodi turpissime assererent. Neque hoc solum uituperandum est. sed magnus est ipsorum uerborum euripus. Quemadmodum enim qui in euripo sunt huc illuc iactantur. itidem hi nunquam sibi constant: utpote incerta et fragili sententia omnia loquentes.</ab>
+               </div>
+               <div type="sub" n="4" part="N" org="uniform" sample="complete">
+                  <ab part="N">Verum hic piscator omnia absque ulla dubitatione differens: tanquam petre imixus: nulla ex parte titubat. Ipsis nanque supernis penetralibus dignus habitus est: et cum omnipotentem deum in se loquentem habeat: nihil terrenum sentit:</ab>
+               </div>
+               <div type="sub" n="5" part="N" org="uniform" sample="complete">
+                  <ab part="N">ut illi: que ne per quietem quidem regias ingredi meriti sunt. sed extra in foro: et in aliorum hominum consuetudine pro captu suo inuisibilia coniectantes: multis se ambagibus inuoluerunt. cum de supernis misteriis disputare contenderint: et tanquam ceci et ebrii non mutuo dumtaxat errore. sed plerisque in locis secum: iisdem semper de rebus dissideant.</ab>
+               </div>
+               <div type="sub" n="6" part="N" org="uniform" sample="complete">
+                  <ab part="N">Atqui: illitteratus hic et rudis a bethsaiida zebedei filius: et si sepenumero nominum asperitatem greci deriserint. audenter tamen dicam. Quanto enim magis nostri gens: barbara illis uidetur: et gentili ornatu et culto abstinet: tanto nostra apparent clariora.</ab>
+               </div>
+               <div type="sub" n="7" part="N" org="uniform" sample="complete">
+                  <ab part="N">Hic inquam barbarus et ineruditus: hec loquitur: que nemo unquam mortalium nouit. neque loquitur tantum. sed persuadet. Quod si illud dumtaxat assecutus esset non paruam de se concitasset admirationem. Nunc cum alterum accedat longe mirabilius: quod maxime arguit diuina esse: que ab eo dicuntur. quod per omne huius uite curriculum doctrinam suam uniuersis persuaserit auditoribus. Quis infusam ei uirtutem incredibili admiratione non prosequatur?</ab>
+               </div>
+               <div type="sub" n="8" part="N" org="uniform" sample="complete">
+                  <ab part="N">Et profecto hoc maximum est argumentum: nihil ex seipso Iohannem locutum. qui ex media babarie euangelio suo: uniuersum comprehendit orbem. Corpore autem habitauit asiam: ubi antiquitus omnes philosophorum secte philosophate sunt.</ab>
+               </div>
+               <div type="sub" n="9" part="N" org="uniform" sample="complete">
+                  <ab part="N">Idcirco locus is demonibus obnoxius est: et admodum formidabilis. In medio tamen inimicorum claruit: illorum fugata caligine: arcem euertit quam munitissimam. Animo uero in eum secessit locum: qui idoneus et accomodatus ei esset: qui euismodi operaretur. ut gentilium opiniones penitus abolerentur. sua autem in dies fierent clariora.</ab>
+               </div>
+               <div type="sub" n="10" part="N" org="uniform" sample="complete">
+                  <ab part="N">Exquo enim et hic et reliqui piscatores fuerunt: et pithagoree et platonice siluerunt discipline: que superiori tempore tanti nominis et autoritatis ferebantur: ut ne nomine quidem a plerisque sint cognite. Atqui et Plato ad tirannos se contulit accitus ut aiunt: et multis cum sociis in siciliam nauigauit.</ab>
+               </div>
+               <div type="sub" n="11" part="N" org="uniform" sample="complete">
+                  <ab part="N">Pithagoras uero magnam gretiam inhabitans innumera magice genera nouit. Cum bobus enim loqui (hoc enim ipsum fecisse aiunt) nihil aliud est quam magica. et inde maxime constat. Nam qui bruta ita allocutus est: nulli hominum profuit. sed obfuit plurimum.</ab>
+               </div>
+               <div type="sub" n="12" part="N" org="uniform" sample="complete">
+                  <ab part="N">atqui aptior ad philosophicas rationes humana natura est. ille tamen cum aquilis et bobus: ut ferunt: disputans: prestigiis alliciebat. neque enim ratione expertem naturam: ut ratione uteretur: effecit. neque enim humanis uiribus fieri potest. sed mendaciis decepit ignaros.</ab>
+               </div>
+               <div type="sub" n="13" part="N" org="uniform" sample="complete">
+                  <ab part="N">et nulla ex parte humane consulens utilitati: equum esse et fabas edere: et plantarum capita. auditoribus persuasit. Quodque preceptoris anima nunc in fruticem: nunc in puellam: nunc in piscem uerteretur. Nonne merito illa omnia extinxit aboleuitque: uera et perfecta doctrina? Merito sane et recte quidem.</ab>
+               </div>
+               <div type="sub" n="14" part="N" org="uniform" sample="complete">
+                  <ab part="N">optima sed non itidem indocti et illitterati uiri doctrina euanuit. Verum siri: egiptii: indi: perse: ethiopes: et innumere alie gentes: in suam transferentes linguam: homines barbari philosophari didicerunt.</ab>
+               </div>
+            </div>
+            <div type="sec" n="3" part="N" org="uniform" sample="complete">
+               <div type="sub" n="1" part="N" org="uniform" sample="complete">
+                  <ab part="N">Non temere igitur dixeram Iohanni theatrum esse uniuersum orbem. Non enim suis omissis hominibus: ad brutorum naturas inuestigandas elaborauit: quod superuacanee et inanis philosophie et summe amentie est. sed cum ceteris omnibus hoc quoque morbo expulso. id tantum adnisus est: et totis uiribus contendit: ut uniuersus orbis utilitatem et uirtutem: a terra in celum transferre edisceret.</ab>
+               </div>
+               <div type="sub" n="2" part="N" org="uniform" sample="complete">
+                  <ab part="N">Idcirco nulla caligine: nullis tenebris: suam operuit doctrinam: ut illi oratione sua prauis opinionibus: obscuritatem tanquam uelum quoddam indiderunt. Huius autem doctrina solis radiis clarior est: atque illustrior. Ideoque in omnes mortales propagata.</ab>
+               </div>
+               <div type="sub" n="3" part="N" org="uniform" sample="complete">
+                  <ab part="N">Non enim iis quibus cum consuetudinem habebat: quinque annorum indixit silencium: quemadmodum ille. Nec sic docuit tanquam insensibilibus assideret lapidibus. Neque numeris omnia contineri fabulatus est. sed omni eiecto sathane fastidio atque illuuie: tanta doctrinam suam perfudit facilitate: ut non modo sapientibus: sed et mulierculis et adolescentulis: quicquid dixerit ante oculos poneret.</ab>
+               </div>
+               <div type="sub" n="4" part="N" org="uniform" sample="complete">
+                  <ab part="N">ea enim et uera esse et utilia: audituris omnibus confirmauit. quod omnia post illum secula testimonio perhibent. Vniuersum nanque ad se orbem allexit: et ab omni calamitate uitam nostram liberam reddidit: postquam suam nobis communicauit doctrinam. Quapropter mortem potius: quam Iohannis precepta contemnere malimus:</ab>
+               </div>
+               <div type="sub" n="5" part="N" org="uniform" sample="complete">
+                  <ab part="N">que plane constat nihil abiectum nihil humanum sapere. sed diuinum et celeste esse: quicquid e sacro eius pectore emanauit. Nullum hic tumorem uerborum atque fucum: nullam superfluam compositionem: et stilum ineptum uidebimus. Longe enim hec ab omni absunt philosophia. sed diuinum et inexpugnabile robur: et sacrorum dogmatum tantam uim: ut nullo possit pacto superari. Preterea innumerabilium bonorum sacietatem.</ab>
+               </div>
+               <div type="sub" n="6" part="N" org="uniform" sample="complete">
+                  <ab part="N">Verborum sane et orationis curiositas: superflua est: et sophistis digna: uel potius ignaris adolescentibus. ut ipse quoque apud eos philosophus: magistrum suum admodum hanc artem apud iudices coarguentem. quod uerba ab ipso audient simplici: ut ita dicam: doctrina: subrustica: nullis uocabulorum fucata illecebris.</ab>
+               </div>
+               <div type="sub" n="7" part="N" org="uniform" sample="complete">
+                  <ab part="N">Haud enim decet inquit o uiri: hac in etate: ficta fucataque oratione adolescentuli more: me audiatis. Et animaduertite quam sit ridiculus. Quod enim tanquam turpe philosophiaque indignum: et adolescentulorum opus fugere professus est: huic ipse maxime operam dedit. hoc unum summo studio contendit. et nihil in Platone preter hoc admiratione dignum uideri licet.</ab>
+               </div>
+               <div type="sub" n="8" part="N" org="uniform" sample="complete">
+                  <ab part="N">Et quemadmodum sepulchra extrinsecus ornata. si exteriorem illam faciem amoueris. cadauerum sanie: et exesorum ossium plena reperiuntur. itidem in philosophorum opinionibus. detecta uerborum superficie et ornatu: multa inania absurdaque deprehenderis. maxime ubi de anima philosophantur: nunc honore: nunc contumelia: nullo modo: modestia ue: adhibita: eam afficientes. Hoc diabolicum recte est: nulla ex parte mediocritatem seruare. sed in alterutrum extremorum allectos animos: ad errorem trahere.</ab>
+               </div>
+               <div type="sub" n="9" part="N" org="uniform" sample="complete">
+                  <ab part="N">cum nunc ad diuinam substantiam: neque modo: neque pietate seruata: eam efferat. Nunc in sues et asinos: et abiectiora quoque animantia: turpiter inducat. Verum de his satis superque. Siquid enim ab his utilitatis accipi posset: et amplius huic sermoni esset immorandum. sin adeo friuola: turpia: ridicula. despicienda sunt et superuacanea.</ab>
+               </div>
+               <div type="sub" n="10" part="N" org="uniform" sample="complete">
+                  <ab part="N">Quare tandem eorum fabulis omissis ueram aggrediamur doctrinam: que ad nos per huius piscatoris linguam celitus deducitur. Nihil enim humanum: nihil terrenum sapit. Agite igitur ipsam Iohannis orationem: in medium proferamus: et quod principio hortati sumus: ut diligenti attentione his sermonibus uacaretis: id uobis impresentia in memoriam reducimus.</ab>
+               </div>
+               <div type="sub" n="11" part="N" org="uniform" sample="complete">
+                  <ab part="N">Qua nanque ratione Iohannes ita in euangelio suo exorsus est. In principio erat uerbum: et uerbum erat apud deum? Animaduerte euangeliste fiduciam: et uerborum uim. Nihil dubitat: nihil coniectatur. sed certa omnia assertione proloquitur. Magistri siquidem est: in his que dicit nihil ambigere.</ab>
+               </div>
+               <div type="sub" n="12" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nam si is qui alios docet: alterius indiguerit doctrina. non preceptoris. sed discipuli munere se fungi: si recte iudicabit: intelliget. At siquis ambigeret: quid tandem prima omissa causa: ad secundam quamprimum transit? Primum quidem et secundum in hac re pretermittamus. Non enim nostra hec. Nam et numero: et omni temporum consequentia: diuturnitas prior est: et superior. Quapropter his omissis patrem a nullo esse: filium a patre genitum: confiteamur.</ab>
+               </div>
+            </div>
+            <div type="sec" n="4" part="N" org="uniform" sample="complete">
+               <div type="sub" n="1" part="N" org="uniform" sample="complete">
+                  <ab part="N">Recte inquit. Verum quonam pacto nulla habita patris mentione: de filio sermonem aggreditur? Quoniam omnibus patrem esse constabat: si non ut patrem: saltem ut deum. unigenitus autem ignorabatur. Quare haud immerito: ad eius cognitionem a principio statim festinauit: ut nescientibus eum ostenderet. Preterea neque patrem in filii mentione subticuit. et cognosce queso spiritalem sapientiam.</ab>
+               </div>
+               <div type="sub" n="2" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nouit homines antiquitus pre omnibus maxime deum et uenerari et asserere. Idcirco hinc principium fecit: et prosequens: deum inquit esse. non qualem Plato: qui alterum mentem: alterum animam esse profitetur. hec enim a diuina et immortali natura: que nihil habet nobiscum commune longe absunt. sed secessit communicatione ad creaturam. secundum substantiam dico: non secundum habitudinem.</ab>
+               </div>
+               <div type="sub" n="3" part="N" org="uniform" sample="complete">
+                  <ab part="N">Preterea uerbum ipsum appellauit. Cum enim nos docturus esset: hoc uerbum unigenitum esse dei filium: ne passibilem quispiam naturam suspicaretur: preoccupata uerbi appellatione: omnem aufert suspitionem. Inde enim et filium: et nulli passioni subiectum: significat.</ab>
+               </div>
+               <div type="sub" n="4" part="N" org="uniform" sample="complete">
+                  <ab part="N">Vides ne ut dixi. qui cum de filio loquitur patrem non subticet? Quod si hec satis non sunt: ad omnia ostendenda: nulla te admiratio teneat. De deo enim nobis sermo est: quem neque dicere neque intelligere pro ipsius magnitudine quisquam potest. Ideo Iohannes. substantie nequaquam nomen affert. Quippe cum dici nequeat quenam dei sit substantia. ubique autem eum nobis ex operibus manifestat.</ab>
+               </div>
+               <div type="sub" n="5" part="N" org="uniform" sample="complete">
+                  <ab part="N">Siquidem hoc uerbum paulopost uideri licet lucem appellatum: et lucem uitam: et uitam ueritatem. Non tamen hac dumtaxat causa his eum nominibus appellauit. sed hac quidem prima. altera quoniam nobis patrem anunciaturus erat. Omnia enim inquit quecumque audiui a patre meo nota feci uobis.</ab>
+               </div>
+               <div type="sub" n="6" part="N" org="uniform" sample="complete">
+                  <ab part="N">Vocat autem ipsum et uitam et lucem. Nam a notione lux nobis largita est: et a luce uita. Et profecto non unum nobis nomen: non duo. non tria. non etiam plura: satis sunt ad diuinas res edocendas. sed acquiescamus: si uel multis: quamuis obscure: que deo attribuuntur: possumus percurrere.</ab>
+               </div>
+               <div type="sub" n="7" part="N" org="uniform" sample="complete">
+                  <ab part="N">Non autem simpliciter ipsum uerbum appellauit. sed cum articuli adiectione a reliquis ipsum hoc loco separans. Age quamuere dixerim a celo hunc nos euangelistam allocutum.</ab>
+               </div>
+               <div type="sub" n="8" part="N" org="uniform" sample="complete">
+                  <ab part="N">Contemplare quomodo ab ipso statim exordio superne aduolans: auditorum animos mentesque supra omnia quam sensu percipiuntur: erexerit: supra terram: mare: celum: angelos: cherubim seraphim: omnem denique creaturam: et ut eo ascenderet persuasit. Quid igitur? Nunquid cum ad tantam nos erigeret altitudinem ibi nos sistere potuit?</ab>
+               </div>
+               <div type="sub" n="9" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nequaquam. sed quemadmodum siquis eum qui ex littore ciuitates: oras: portusque conspicatus sit: in medium postmodum pelagus proueheret: priorum conspectu amoto: in nullum certum obiectum. sed in infinitum eius dimittit intuitum. sic euangelista supra omnem nos creaturam ad celestia erigens: ad supernum erectum oculum dimittit nullo fine (ut arcana illa assequamur) nobis adhibito. quippe qui nullus est.</ab>
+               </div>
+               <div type="sub" n="10" part="N" org="uniform" sample="complete">
+                  <ab part="N">Ascendens igitur ad uerbum: quod in principio erat. hoc inquirit principium: quo inuento: cum semper eius mentis aciem: magis perstringat: non habet: ubi ratione innitatur. sed intente suspiciens: cum cessare nequaquam ab inquirendi labore possit. rursum ad inferiora descendit. in principio enim erat uerbum. nihil aliud quam quod semper sit significat.</ab>
+               </div>
+               <div type="sub" n="11" part="N" org="uniform" sample="complete">
+                  <ab part="N">ecce naturam philosophiam et diuina dogmata non qualia gentilium. qui tempora et deos: hos antiquiores: illos iuniores posuerunt. sed nihil tale in nostra religione. Nam si deus est: quemadmodum est: nihil eo superius. si omnium conditor primus. si dominus et princeps omnium. omnia post ipsum et creature et secula.</ab>
+               </div>
+               <div type="sub" n="12" part="N" org="uniform" sample="complete">
+                  <ab part="N">Volebam et alia impresentia uobis exponere nisi uererer animos uestros iam audiendo defatigatos. Quare his admonitis que sint uobis ad dictorum dicendorumque attentione utilia. finem nostre imponamus orationi. quenam igitur ea sunt:</ab>
+               </div>
+               <div type="sub" n="13" part="N" org="uniform" sample="complete">
+                  <ab part="N">scio plurimos uerborum longitudine fastidire. quod eo fit: quoniam anima multis secularibus curis: oneribusque opprimitur. sicut enim oculorum acies pura et lucida acute omnia intuetur. neque etiam in tenuissimis deprehendendis corporibus elaborat. Verum siquis malus a capite humor: uel caligo aliqua ad oculum ascendit: densa quedam ante pupillam nebula obiicitur: que ne crassiora quidem corpora uidere sinit ita anime usu uenit.</ab>
+               </div>
+               <div type="sub" n="14" part="N" org="uniform" sample="complete">
+                  <ab part="N">cum omnis perturbatio que eam offenderat purgata est: intente oportuna omnia prospicit. uerum cum plurimus turbatur affectibus: uim illam omnem amittit. ut nihil altum ualeat intueri. sed quamprimum nebula obiecta et somno atque segnicie: que ad uirtutem et uitam utilia sunt. nulla in iis capessendis alacritate: contemnit. Hoc ne uobis accidat (non enim omittam quin semper uos admonitos faciam) animam adhibeatis diligenter.</ab>
+               </div>
+            </div>
+            <div type="sec" n="5" part="N" org="uniform" sample="complete">
+               <div type="sub" n="1" part="N" org="uniform" sample="complete">
+                  <ab part="N">ne ea uobis dicantur que fidelibus ebreorum a Paulo: cum multa se ad eos interpretatu difficilia locutum diceret. non quod suapte natura talia essent. sed quod desidie eos et negligentie in iis accipiendis argueret. qui enim infirmus imbecillisque est: non secus breui quam longa oratione perturbatur: et que manifesta et facillima sunt: difficilia esse autumat.</ab>
+               </div>
+               <div type="sub" n="2" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nemo in hac contione huiusmodi affectibus coinquinetur. sed omni huius seculi cura sollicitudineque abiecta: diligenter huic aures doctrine abhibeat. Quippe cum pecuniarum fames auditorum animos occupauit: nulla profecto ratione eiusmodi in aliis rebus accipiendis desiderio flagrare poterunt. Neque enim unius anima multis sufficere potest cupiditatibus. sed ab alia alia opprimitur: et diuisa fit imbecillior: cum alia dominetur. et totum ad se animum trahat. quod in liberorum amore usu uenit.</ab>
+               </div>
+               <div type="sub" n="3" part="N" org="uniform" sample="complete">
+                  <ab part="N">Nam qui unum dumtaxat habet: eum incredibili animi ardore prosequitur. qui plures in eo diuisi affectus infirmiores redduntur. Quod si in naturali caritate et ui: et cognato amore euenire consueuit: quid nam in eo quod a uoluntate et arbitrio nostro proficiscitur existimandum est? maxime cum harum rerum amatores: pugnantes inter se affectus: et cupiditates habeant.</ab>
+               </div>
+               <div type="sub" n="4" part="N" org="uniform" sample="complete">
+                  <ab part="N">Contrarius pecuniarum amor: huiusmodi attentionis desiderio est. Huc ingressi celum ingredimur. non in hanc contionem dico. sed si animos ad eam attente audiendam preparabimus. terrestrem uitam agentes celum ascendere: et celestia deprehendere et audire: possumus:</ab>
+               </div>
+               <div type="sub" n="5" part="N" org="uniform" sample="complete">
+                  <ab part="N">quibus nemo terrena admisceat. Nemo in hoc consessu domesticarum rerum cura impediatur. hinc emolumentum et ad domesticos parietes et ad forum aufferre: et nobiscum tenere oportuit. non animam domesticis: et fori oneribus: cogitationibusque opprimere.</ab>
+               </div>
+               <div type="sub" n="6" part="N" org="uniform" sample="complete">
+                  <ab part="N">Ideo doctrine sedem ingredimur: ut omni penitus sorde abluamur. Nam si parum studii diligentieque diuinis sermonibus. huius seculi occupationibus distracti: adhibuerimus. longe satius hac contione abstinuissemus. Nemo igitur in ecclesia super domo et familia cogitet. sed domi: ecclesiam et diuinas res animo complectatur.</ab>
+               </div>
+               <div type="sub" n="7" part="N" org="uniform" sample="complete">
+                  <ab part="N">hec ceteris rebus omnibus sint nobis preciosiora. hec enim anime sunt. illa uero corporis. immo et anime et corpori hec plurimum conferunt. Idcirco ea nobis omnium potissima ducamus. reliqua superuacanea. diuina namque et presenti et future uite: accomodata sunt. terrena uero neutri: nisi ab illis prescripta lege moderentur.</ab>
+               </div>
+               <div type="sub" n="8" part="N" org="uniform" sample="complete">
+                  <ab part="N">Non enim dumtaxat quales futuri simus: et quo pacto illam uicturi simus uitam cognoscere oportet. sed quanam ratione in hoc quoque seculo peregrinandum nobis est. Et profecto edes hec: huius uite spiritalis est medicina. ut que exterius acceperimus uulnera: hic curare possimus. non ut nouis acceptis discedamus.</ab>
+               </div>
+               <div type="sub" n="9" part="N" org="uniform" sample="complete">
+                  <ab part="N">Quod nisi spiritus sancti sermonibus uacauerimus: non modo priores non abluerimus nequicias. sed et aliis coinquinabimur. Summa itaque diligentia his que nobis celitus reuelata sunt: attendamus. Neque multum laboris supererit: si principium et materiam ipsam curabimus intelligere. sed paruo primum labore suscepto: alios deinde secundum Paulum admonere poterimus.</ab>
+               </div>
+               <div type="sub" n="10" part="N" org="uniform" sample="complete">
+                  <ab part="N">hic enim apostolus quamaltissime erigitur: et incredibilem effundit doctrinam: in qua longe magis quam ceteri immoratur: ne friuolis et superuacaneis imbuamur. Quamobrem hec paulatim exponimus: ut facilia omnia ante oculos nobis ponantur: ne ue excidant. Magna nos formido teneat: ne diuine sententie fiamus obnoxii cum inquit. Si non uenissem: et locutus eis non essem: peccatum non haberent.</ab>
+               </div>
+               <div type="sub" n="11" part="N" org="uniform" sample="complete">
+                  <ab part="N">Et quidnam amplius: quam qui nihil audierunt: consequemur: cum auditis diuinis sermonibus nihil ex iis domum referimus. sed uerba tantum admiramur? date igitur nobis: ut in bonam terram semen iaciamus. curate ut ad id recipiendum preparemini. et siquis spinas fouerit: spiritus sancti ignem iniiciat. siquis durum et contumax cor habuerit: eodem igne et molle reddet: et placabile.</ab>
+               </div>
+               <div type="sub" n="12" part="N" org="uniform" sample="complete">
+                  <ab part="N">siquis secus uiam: multis cogitationibus conculcatur: interiora petat: neque iis assideat que ipsum unco ad se trahere annituntur: ut bonarum segetum in nobis exuberantium: prouentum pulcherrimum conspicemur. Hoc pacto nosipsos curabimus et incredibili desiderio: hos spiritales sermones hauriemus. et si non uno statim momento: paulatim saltem: omnibus secularibus molestiis liberabimur. Quare summa nobis attentione elaborandum est: ne nobis dicatur quod aspidis surde aures habeamus.</ab>
+               </div>
+               <div type="sub" n="13" part="N" org="uniform" sample="complete">
+                  <ab part="N">Quid enim a fera talis differt auditor? Nonne omnibus brutis est rationis expertior: qui loquentem deum audire dedignatur? Si deo placere hominis est. qui audire negligit: quanam ratione id assequetur? Is profecto nil differt a belua.</ab>
+               </div>
+               <div type="sub" n="14" part="N" org="uniform" sample="complete">
+                  <ab part="N">Considera igitur quamturpe: quamscelestum sit: cum christus nos ex hominibus angelos fieri uelit: ex hominibus in beluas sponte nostra mutari. Ventri enim seruire: et pecuniarum cupiditate semper inhiare: irasci: mordere: calcitrare: non hominum. sed beluarum potius est.</ab>
+               </div>
+               <div type="sub" n="15" part="N" org="uniform" sample="complete">
+                  <ab part="N">Atqui singule belue singulos: ut ita dicam: habent affectus: et diuina uita primum abiecta: omnia sibi pro arbitrio indulgens: non modo belua. sed monstrum multiforme et uarium euadit: neque ullam a natura ueniam meretur. A uoluntate enim et sententia: omnis ea malicia proficiscitur.</ab>
+               </div>
+               <div type="sub" n="16" part="N" org="uniform" sample="complete">
+                  <ab part="N">Sed absit ut hoc unquam de christi ecclesia suspicemur. de nobis quidem meliora et que ad salutem faciant persuasimus. Verum quo magis hoc nobis persuademus: eo uehementius rationibus que nos ab omni immundicia preseruare possint inuigilabimus. ut ad ipsum uirtutum cacumen euadentes: que nobis promittuntur bona consequamur. Gratia et benignitate domini nostri Ihesu christi per quem et cum quo patri gloria simul et spiritui sancto in secula.</ab>
+               </div>
+            </div>
+         </div>
+         <div type="hom" n="3">
+            <div n="title" type="title">
+               <ab>Omelia III</ab>
+            </div>
+            <div type="sec" n="1">
+               <div type="sub" n="1">
+                  <ab>In principio erat uerbum. Superuacaneum iam mihi uidetur uos admonitos facere: ut equo animo et attente meam accipiatis orationem. Siquidem quamprimum eius audiende: re ipsa incredibilem pre uobis tulistis cupiditatem.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Hic enim concursus: frequens et diligens attentio: impulsioque et properatio: ut ea uobis loca occupentur: unde clarius exaudiamur. necnon uestra in tanta angustia perseuerantia: quousque spiritale hoc dimittatur spectaculum. ad hec plausus tumultus: et alia huiusmodi maximum animi et feruoris uestri sunt argumentum.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Quocirca superflua hac admonitione omissa: illud uos admonendos: hortandosque censeo pernecessarium. ut quo nunc estis animo: perseueretis. neque in hoc tantum consessu. sed domi quoque uir cum uxore. pater cum filio inuicem de his frequenter loquantur. et ultro citroque: suam: et ferant: et inquirant. sententiam. uelintque probatissimam hanc: et pulcherrimam inducere consuetudinem.</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Nec mihi quispiam dicat. pueros in hoc occupari non oportere. Non enim tantum opus est: ut his uacent admonitionibus. uerum etiam solis. imbecillitatis tamen uestre gratia: hoc non dicimus. neque eos a secularibus et terrenis rebus: quemadmodum neque uos a ciuilibus negotiis: abducimus. Atqui: e septem his diebus: unum ad communis omnium domini cultum seruiciumque: collocandum merito arbitramur.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Nonne ridiculum est ut seruulos nostros: in nostris semper negotiis occupatos uelimus. nos uero nullum deo exhibere seruitium. presertim cum nostra omnis seruitus. nihil ei quidquam conferat. Deus enim nulla re indiget. sed ad nostram penitus redundat utilitatem.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Vos autem ad spectacula filiis adductis: neque ad doctrinam neque ad ullam bonam frugem: eos unquam hortamini. Verum siquid sanctum siquid spiritale comparandum cogendum ue fuerit: inanem id appellatis sollicitudinem.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Nonne iram dei in uos merito prouocatis: cum ceteris rebus: et certo tempore: et diligenti cura adhibita. in diuinarum rerum doctrina pueros exerceri: molestum intempestiuumque ducitis? Non sic: non sic inquam fratres dilectissimi.</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Hec profecto etas: his maxime admonitionibus indiget. tenera est et cito que ei instillantur: imbibit: et audita accipit: tanquam sigillo auditus cere. hoc est puerorum animis: impresso. Preterea et uita eius in auditu est: et in ipsis fere ianuis. ut uel ad uirtutem uel ad uitium facile possit deflectere.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Siquis igitur eos ab ipsis incunabulis: et quasi uitiorum uestibulis: ad uiam uirtutis abstraheret in habitu quodam et natura recte uiuendi eos confirmaret: neque sponte sua facile in deteriora prolaberentur: cum eiusmodi a teneris assuetudo: ad uirtutem eos alliceret. Hoc pacto et maiores diligentius obseruabunt: et reuerebuntur: et ciuilibus in rebus utiliores reperientur. Siquidem ab ineunte etate seniorum mores edocebuntur.</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Neque enim fieri: ut sic dicam: potest. qui his aures adhibet hisque se apostolicis admonitionibus: prompto animo offeret: quin incredibile quoddam bonum: siue uir: siue mulier: siue iuuenis: huius mense particeps: consequatur. Nam si beluas: uerbis et ratione nonnunquam mansuetudinem erudimus. longe magis spiritali hac doctrina: cum hominibus communicata: id efficiemus. cum utriusque: medicine scilicet et eius qui curatur maxima sit differentia.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Neque enim in nobis ea est: que in illis feritas. altera nature est: altera uoluntatis. Neque rationis uis eadem. illa humane est sententie. hec spiritus sancti gratie et uirtutis.</ab>
+               </div>
+               <div type="sub" n="12">
+                  <ab>Quam si quispiam se consecuturum desperet. intelligat feras mansuescere solere: et nunquam sibiipsi diffidet: frequenter hanc sibi medicinam expetat. spiritus sancti leges omni tempore audiat: et repetita domo que audierit: memori tandem menti inscribat. Hoc pacto et spe bona et securitate uiuet plurima: ipsaque experientia plane: quantopere proficiat: intelliget. Quippe cum diabolus diuinam legem anime inscriptam: et cor hominis: dei tabulam factum conspicatur. eo se amplius conferre formidat. Vbi enim littere regie. non aureo titulo. sed dilecti seruuli Ihesu: menti animoque impresse: exuberanti spiritus sancti gratia effulserint. ille nullo pacto perpeti aut consistere potest. sed longe formidolosus effugit.</ab>
+               </div>
+               <div type="sub" n="13">
+                  <ab>Nihil enim adeo eius consilia perturbat et proterit: quam qui ad diuinarum rerum cogitationem animus erigitur: et supernum hunc atque uberrimum fontem haurire semper: desiderat. Eum inquam animum: nihil humanum: quamuis molestissimum: perturbare: nihil quamuis magnum et exoptabile: inflare: et superbia efferre: poterit. sed in tantis huius seculi fluctibus perturbationibusque: in multa uiuet tranquilitate. </ab>
+               </div>
+            </div>
+            <div type="sec" n="2">
+               <div type="sub" n="1">
+                  <ab>Neque enim natura. sed mentis nostre imbecillitate perturbamur. Nam si natura id nobis inditum esset. omnes quidem homines necessario perturbarentur. Omnes enim idem nauigamus pelagus cuius et fluctuum et tempestatum: immunes nullo pacto esse possemus.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Quod si extra huius insani maris fluctus tempestatesque multi reperiuntur. proculdubio constat eos affectus. non a rebus humanis. sed animi tantum uicio insaniaque proficisci. quem si tam firmo sisteremus proposito: ut omnes casus facile tolleraret: nihil nobis hiemis: nihil tempestatis: quieto et tranquillo mari relinqueret.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Verum nescio quo pacto cum nihil de his dicere proposuerim: in hanc diuerterim admonitionem. Ignoscite queso orationis nostre longitudini. Etenim non parum ueritus sum ne quando hoc uobis remissius studium fieret: ne ue fastidio afficeremini: cuius nisi dubius fuissem: nulla huiusmodi nobis orta esset disputatio.</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Satis enim id nobis: omnia facilia et reddere et subministrare posset. Sed iam tempus est propositam aggredi orationem. quare indefessos uos huiusmodi certaminibus exhibeatis. et profecto certamina nobis proposita sunt: aduersus ueritatis inimicos: qui pro uiribus omnia machinantur. ut filii dei gloriam (immo potius suam) aboleant. Perpetuo enim diuina gloria: eadem permanet: nihilo ob maledicam et scelestam linguam minor.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Illi autem quem se adorare profitentur: euertere conati: corpus suum ignominia: animam supplicio: afficiunt. Quidnam igitur ii nobis: qui hanc ueram doctrinam profitemur: dicunt. In principio erat uerbum. hoc non omnino eternum significat. Idem namque et de celo et de terra dictum est?</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>O dedecus. o impietatem incredibilem. De deo tecum mihi sermo est: et tu terram mihi: et terrenos homines affers in medium? igitur cum homo filius dei dicatur: et deus utique sit (Ego enim dixi dii estis inquit et filii altissimi omnes) cum unigenito de filiatione contendis: et nihil ipsum hac in parte amplius quam tu habere dicis.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Minime inquis. Dicis tamen: quamuis uerbo inficieris. Quonam pacto? quid tu quoque per gratiam profiteris: adoptionem accepisse: et ipsum similiter? Cum enim dicas non natura ipsum filium: nihil aliud quam gratie esse confirmas.</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Verumtamen uideamus que nobis adducuntur testimonia. In principio inquit creauit deus celum et terram. terra autem erat inanis et uacua. Et fuit uir unus de ramathen sophim.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Hec sunt que putant firmissima esse argumenta. Sed ut doctrine nostre ueritas ostendatur: ad comprimendum eorum blasphemiam. quid habet similitudinis creauit et erat? Quid deus et homo? Quid pura commisces? Quid diuisa et separata confundis. et celestia ad terrena deducis? </ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Hoc enim in loco. erat: proprium solum significat. sed in principio erat: et uerbum erat. Quemadmodum igitur. est uerbum: si de homine dicatur: presens duntaxat tempus signat. sin autem de deo: sempiternum atque perpetuum. itidem et erat. Nam cum de humana natura sermo habetur: preteritum tempus: et hoc ipsum finitum. quando uero de deo: eternitatem ipsam ostendit.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Satis ergo fuerat ei qui terram et hominem audiret. nihil amplius de his cogitare: quam eorum nature conueniat. Nam quod factum est: quocumque tempore uel seculo factum sit. factum est tamen. filius autem dei non temporibus tantum. sed seculis quoque omnibus superior est. quippe qui eorum omnium conditor et opifex est: per quem inquit fecit et secula.</ab>
+               </div>
+               <div type="sub" n="12">
+                  <ab>Creator enim ante creaturas omnino esse constat. Cum uero quidam adeo stulti et insensati sint: ut propterea maius quiddam de sua dignitate opinentur. his uerbis: creauit: et fuit homo: auditoris preoccupant sententiam: et omnem impudentiam exuunt.</ab>
+               </div>
+               <div type="sub" n="13">
+                  <ab>Omne enim creatum: et celum et terra: tempore creatum est. et temporale habet principium: neque principio caret. quoniam creata sunt. itaque cum audis creauit et fuit homo: non delirat: neque stulta et superflua ingerit.</ab>
+               </div>
+               <div type="sub" n="14">
+                  <ab>Ego etiam et aliud maius afferre possum. Quidnam? Quod si de terra dictum esset. in principio fuit terra: et de homine quod in principio fuit homo: neque sic quicquam maius prestantiusque de his quam que in presentia cognoscimus: opinari nos oportuit.</ab>
+               </div>
+               <div type="sub" n="15">
+                  <ab>Terre enim et hominis appellatio: quecumque de se dicuntur comprehendens: non sinit nos quicquam quam que et intelligimus et uidemus: excellentius coniectari. quemadmodum etiam si exiguum quiddam et minimum de deo dicatur. nihil tamen humile: nihil abiectum de se sinit existimari.</ab>
+               </div>
+               <div type="sub" n="16">
+                  <ab>Accedit ad hoc: quod de terra loquens prosequitur. Terra autem erat inanis et uacua. Cum enim asseruerit quod terram deus creauerit: eique proprios statuerit terminos: secure iam que sequuntur: enarrat. non ignarus: neminem adeo stultum: qui sine principio: ipsam et ingenitam arbitretur.</ab>
+               </div>
+               <div type="sub" n="17">
+                  <ab>terre enim nomen: et creauit. sufficientia sunt: ut cuiuis: etiam stolido persuaderi possit: neque eternam neque ingenitam esse. sed ex eorum numero que tempore condita sunt.</ab>
+               </div>
+            </div>
+            <div type="sec" n="3">
+               <div type="sub" n="1">
+                  <ab>Preterea hoc uerbum. fuit: de terra quidem et de homine dictum: non omnino esse signat. sed de homine inde oriundum: de terra autem qualis ea sit nobis ostendit.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Neque enim solum dixit terram fuisse. sed etiam qualis fuerit tenebrosa scilicet et informis: a quisque operta et admixta. Et de Elchana non dixit solum quod fuit homo. sed etiam unde: de ramathen inquit sipha.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>De uerbo autem non ita loquitur. et profecto hec inuicem conferre erubescimus. Nam si eos reprehendimus qui illos conferunt: quorum magna est et uirtutis et morum differentia. cum tamen una sit et eadem substantia. qui quorum et natura et cetera omnia prorsus differunt. in comparatione adducunt. nonne ultime sunt dementie arguendi?</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>sed benignus nobis et propitius is adsit: quem illi tam perperam impieque calumniantur. Huiusmodi nanque disputationis necessitatem non sponte nostra aggressi sumus: neque nos eam inuenimus. sed coacti eorum perfidia qui redemptori suo bello indicto: hanc nobis purgande calumnie dederunt occasionem.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Quid ergo dicimus? Quod erat: cum de uerbo dicitur perpetuum et eternum esse signat. Inquit enim in principio erat uerbum. consequens autem erat apud aliquem esse. cum enim maxime hoc dei sit proprium eternum et sine principio esse. hoc primum posuit.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>deinde ne quis audiendo in principio erat uerbum etiam ingenitum dixerit. hoc mox exposuit antequam quid esset: dicatur: erat inquit apud deum. et ne omnino quispiam uerbum ipsum id esse quod profertur: aut quod intra hominem est arbitraretur: per articuli. primum: ut iam diximus et per secundam hanc adiectionem eam amouet suspitionem.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Non enim dixit in deo erat. sed apud deum: in persona eius eternitatem nobis ostendens. quod apertius quoque significauit: cum subdidit. et deus erat uerbum. sed factum est inquit. Quid ergo obstitit quin dicerent: in principio fecit deus uerbum?</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Cum de terra Moises loqueretur. non dixit in principio erat terra. sed in principio creauit deus terram: et creata fuit. Quid prohibuit Iohannem quoque eodem modo exordiri. in principio creauit deus uerbum. Nam si de terra ita locutus est Moises: ne quis ipsam increatam arbitraretur: longe magis de filio loquentem timere Iohannem oportuit: si creatus erat.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Mundus nanque cum sit uisibilis: per se conditorem suum predicat. Celi inquit enarrant gloriam dei. filius autem inuisibilis est: et creaturam: longe supra quam dici possit: excedit. Quod si illic: et si neque uerbo nobis: neque doctrina opus erat: ut creatum mundum disceremus: tamen manifeste id nobis ante oculos ponit propheta: multomagis de filio idem a Iohanne dicendum fuerat: si creatus fuisset.</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>sane quidem. Verum Petrus id manifeste aperteque professus est. Quonam in loco et quomodo? Quando cum iudeis disputans his uerbis usus est. quod dominum ipsum et christum deus fecit. quicquid sequitur non addidisti? Ihesum scilicet quem uos crucifixistis.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>an ignoras: eorum de quibus sermo habetur: partim immortalis nature esse: partim carnem accepisse? Quod si negas et omnia simpliciter ad diuinitatem trahis: passibilem diuinam naturam feceris. quod si non passibilem neque actiuam dixeris.</ab>
+               </div>
+               <div type="sub" n="12">
+                  <ab>uerum si ex ipsa diuina et ineffabili natura sanguis emanauit: ipsaque carnis loco in cruce clauis transfixa et discerpta est: admittendum profecto esset comentum tuum.</ab>
+               </div>
+               <div type="sub" n="13">
+                  <ab>sin neque ipse quidem diabolus hoc effinxerit: quanam ratione ipse ignorare assimulas? Indignam sane cui ignoscatur ignorantiam: et qualem neque demones unquam simularunt. Preterea hec nomina. dominus et christus: non substantie sunt. sed dignitatis. alterum potentie: alterum unctionis.</ab>
+               </div>
+               <div type="sub" n="14">
+                  <ab>quid igitur de filio dei dixeris? Nam si ut dicitis: creatus esset: nullum locum hoc haberet. non enim prius fuit deinde ipsum fecit deus. neque seruile habet principium. sed eiusdem nature atque substantie.</ab>
+               </div>
+               <div type="sub" n="15">
+                  <ab>Interrogatus enim an esset rex. Ego ad hoc natus sum inquit. Petrus autem de eo tanquam creatura quadam loquitur. Nam omnis ei de christi humanitate sermo est.</ab>
+               </div>
+            </div>
+            <div type="sec" n="4">
+               <div type="sub" n="1">
+                  <ab>Et quid admiraris. Petrum ita loquentem? quippe et Paulus cum atheniensibus disputans. hominem tantum ipsum his uerbis appellat. In uiro in quo statuit: fidem prebens omnibus. suscitans eum a mortuis. nihil de dei forma: neque quod ei equalis sit: neque quod splendor glorie eius: meminit. Neque immerito.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>nondum enim tempus uenerat: ut hec diceret. sed satis adhuc erat: ut et hominem fuisse et a mortuis suscitatum intelligerent. Eodem quoque modo christus fecerat: cuius exemplo Paulus opera sua disposuit. Non enim continuo suam nobis reuelauit diuinitatem. sed ab ipso principio propheta: et christus simpliciter homo habitus est. deinde et uerbis et operibus: quod erat: ostendit.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Idcirco Petrus hoc ordine usus. hanc primam ad iudeos contionem habuit. Nam cum nihil de diuinitate eius adhuc manifeste accipere possent. in humanitatis eius sermonibus immoratur: ut eorum auditus iis exercitus: demum se diuinitatis doctrina imbueret.</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Quod si quispiam omnem contionem altius percurrere uoluerit. perspicue hanc nostram deprehenderit sententiam. Etenim hominem ipsum appellat: et passioni eius resurrectionique et secundum carnem generationi: insistit. Atqui: et Paulus cum eum ex semine dauid secundum carnem factum diceret: nihil aliud nos admonuit: quam id factum a christi humanitate sumptum esse: quod et nos confitemur.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Verum tonitrui filius de ineffabili et sempiterna essentia: nunc loquitur. Propterea non. Fecit. sed: Erat posuit. Oportebat enim si creatus esset: id maxime diffinire.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Quod si Paulus ueritus est: ne stultorum aliquis suspicaretur filium patre maiorem fore. et genitorem ei subiectum. et idcirco ad corinthios scribens inquit. Quod omnia christo subiecta sunt: preter illum qui subiecit ei omnia. licet absurdum fuisset quempiam suspicari: patrem unquam filio cum ceteris omnibus subiectum iri.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>has tamen et si nulli nixas rationi suspitiones formidauit. addiditque preter eum qui subiecit ei omnia. longe magis Iohannem si creatus esset filius dei: timere: ne quis increatum existimaret: et hoc ante omnia edocere oportuisset.</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Nunc autem cum genitus sit: merito sane: neque ipse: neque alius: siue apostolus: siue propheta: creatum eum asseruit. sed neque ipse unigenitus si esset creatus subticuisset. Qui enim tam humilia et abiecta propter humilitatem loquitur: id nullo pacto pretermisisset.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Neque enim absurde arbitror quam haberet magnitudinem et prestantiam tacuisse: potius quam eam quam non haberet silentio preterisse: neque significasse qualis esset. Illud enim non immerito sileri poterat: ut humanum genus humilitatis admoneretur. hic autem ne minimam quidem silentii causam inuenies:</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Quanam enim gratia si creatus esset: id tacuisset et multa de se pretermisisset? Nam si ut nos humilitatem edoceat: abiecta quedam sepenumero de se etiam minima digna loquitur. multo magis si creatus esset aperte dixisset.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Nonne uides ipsum: nequis ingenitum crederet: ad id ostendendum: et re et uerbis summa ope contendere. ut etiam et dignitate et substantia sua indigna loquatur: et in prophete humilitatem descendat? Illud enim Sicut audio: iudico: et. Ille mihi dixit. quid dicam et quid faciam: et. A meipso non loquor: et alia huiusmodi: prophetarum duntaxat uerba sunt.</ab>
+               </div>
+               <div type="sub" n="12">
+                  <ab>Si ergo ut hanc tolleret suspitionem: tam uiles de se sermones: tam humiles non est dedignatus. longe magis si creatus esset: nequis ipsum increatum suspicaretur: multa huiusmodi protulisset in medium. ut exempli gratia. Nolite arbitrari me genitum esse a patre. creatus sum non genitus. neque illius substantie sum.</ab>
+               </div>
+               <div type="sub" n="13">
+                  <ab>Nunc autem omnino contra. ea enim loquitur que etiam inuitos contrariam accipere cogant sententiam. ut illud. Quia ego in patre: et pater in me est: et. Tanto tempore uobiscum sum et non cognouisti me Philippe? Qui uidet me uidet et patrem: et. Sicut pater suscitat mortuos et uiuificat: sic et filius quos uult uiuificat: et. Pater meus operatus est usque modo: et ego operor: et. Sicut cognoscit me pater et ego cognosco patrem. </ab>
+               </div>
+               <div type="sub" n="14">
+                  <ab>et in omni scriptura unum et idem se esse cum patre asserit. Autoritatem autem et potestatem et his et aliis pluribus locis manifestat ut cum inquit. Tace obmutesce. Volo. mundare. Surde et mute spiritus ego tibi precipio exi ab eo: et. Audistis quia dictum est antiquis: non occides. Ego autem dico uobis qui irascitur fratri suo reus erit iudicio: et plura huiusmodi.</ab>
+               </div>
+               <div type="sub" n="15">
+                  <ab>addo etiam miracula. hec omnia satis idonea sunt ad eius uirtutem potentiamque ostendendam. immo et minima eorum pars: plurimum etiam insipientiores: et adducere et persuadere posset: ut crederent. </ab>
+               </div>
+            </div>
+            <div type="sec" n="5">
+               <div type="sub" n="1">
+                  <ab>sed profecto earum est inanis gloria uirium: ut uel ad manifestissima queque eorum qui ipsi succumbunt: mentis aciem perstringat: et in rebus luce clarioribus dissentire: ac contendere persuadeat. eos autem qui ueritatem probe tenent et intelligunt: in dissimulationem contradictionemque adhortetur: quod iudeis usu uenit.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>non enim ignorationis gratia dei filium obnegarunt. sed ut apud populum. plurimum et autoritatis et honoris consequerentur. ex principibus enim inquit multi crediderunt in eum. sed propter phariseos non confitebantur: ut de sinagoga non eiicerentur. potius enim hominum quam dei gloriam optarunt. siquidem nullo pacto fieri potest: ut is qui tanto studio seculari glorie seruiat: diuinam unquam assequatur.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Idcirco his uerbis reprehenduntur. Quomodo potestis uos credere qui gloriam inuicem accipitis: et gloriam que a solo deo est non queritis? Intolerabilis quedam ebrietas est inanis gloria. Ideoque quem sue subiecit ditioni: is egre in sanitatem restituatur.</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Et quam pestifera thabe infecit animam. a celo abscidens: terre affigit: neque eam amplius sinit: ut ad ueram lucem dirigere possit intuitum. sed in huius seculi sordibus semper eius persuasione deuoluitur: et dominos nobis tam potentes imponit: ut etiam sine iussu aliquo nos exuperent: nobisque perpetuo dominentur.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Qui enim hoc morbo afficitur: nullo preceptore omnia sua sponte operatur. que dominis suis placere quibusque plurimum eos letari arbitratur. Etenim pulchra ueste eorum causa induitur: faciem ornat. non sibi. sed aliis: caterua sequentium stipatur: quo omnes ipsum admirentur. Quidquid denique facit: aliorum tantum gratia facit.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Num quicquam posset esse molestius? Vt aliis admirationi sit: preceps frequenter agitur. Vis eius intelligere tirannidem? Satis tibi ex christi uerbis constabit.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Audi et que sequuntur. Nam si quempiam negociatorem: qui preciosissimas sibi merces magno auri pondere compararit rogaueris: quanam gratia tantum auri profundat. quid ue tantus sibi sumptus uelit. nullam aliam ab eo rationem accipies: quam ut populo placeat.</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>Quod si deinde quid populus sit percontaberis: quiddam inquiet tumultus perturbationisque plenum: e stulticia maiori ex parte constans atque compositum: temere per maris fluctus uaria et pugnante sententia sepenumero iactatum.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>Qui igitur sub huiusmodi dominii seruitio premitur: nonne omnium est sane miserrimus? Verumtamen qui secularem uitam agunt: si his se affectibus deuinxerint: et si graue sit: leuior tamen est reprehensio. Qui uero terrena se abiecisse professi. ea tamen auidi inhiant: hi grauius sunt accusandi.</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>illis enim pecuniarum tenus damnum. his autem ad animam usque periculum extenditur. Nam cum seculari gloria fidei rectitudinem mutarint: et deum ut ipsi laudentur contempserint: dic queso quo damno qua insania afficiuntur. </ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Alii anime affectus: et si magno sint homini nocumento: aliquam saltem afferunt uoluptatem. quamuis temporalem: atque breui duraturam. Nam qui pecuniarum aut mulierum flagrant desiderio: easque sectantur. nonnullam tamen cum damno uoluptatem licet breuissimam capiunt. quos uero hic morbus irretiuerit. hi semper omni priuati uoluptate uitam uiuunt quammiserrimam.</ab>
+               </div>
+               <div type="sub" n="12">
+                  <ab>Neque enim quod tantopere exquirunt multitudinis gloriam assequuntur. sed cum ea frui uideantur. ea tamen omnino carent: cum id nulli prorsus glorie sit adnumerandum. Ideoque non gloria. sed inanis glorie opus appellatur. Inanem gloriam hanc maiores nostri omnes merito dixerunt. inanis nanque est: nihil in se habens: neque clarum: neque gloriosum.</ab>
+               </div>
+               <div type="sub" n="13">
+                  <ab>tanquam persone que pulchre quidem uisu et decore: intus inanes: reperiuntur. Quare cum aspectu ipso elegantiores appareant. neminem tamen unquam ad se amandum allexerunt. Ita nihil etiam miserius: que a multitudine comparatur gloria. difficilem nobis et uiolentum affectum significat. aspectu namque solo pulchra: atque elegans uidetur. intrinsecus autem non inanis modo: uerum etiam ignominiosa: crudelitatis et uiolentie plena.</ab>
+               </div>
+               <div type="sub" n="14">
+                  <ab>Vnde igitur tam temerarius tam insanus absque ulla uoluptate affectus? Non aliunde sane: quam a uili et abiecto animo. neque enim fieri potest: ut qui glorie dulcedine capitur: magnum aliquid et egregium sapiat. sed ignominia illico ipsum notari necesse est: et animi abiecti infamis atque exigui existimari.</ab>
+               </div>
+               <div type="sub" n="15">
+                  <ab>Qui enim nihil propter uirtutem. sed ut hominibus et rudibus et indoctis placeat operatur. qui ue in omni re fallacem hominum: atque erroris plenam exquirit sententiam. quam is gloriam meretur? Animaduerte si quis eum percontaretur: quid tu multitudinem esse arbitraris. proculdubio et desidem: et nulle bone rei deditam respondet.</ab>
+               </div>
+               <div type="sub" n="16">
+                  <ab>Quid autem? an ex illius numero fieri optares? siquis eundem iterum interrogaret. non utique mihi assensurum persuadeo. Nonne igitur maxime ridiculum est: eorum gloriam aucupari: quorum ne similis quidem esse uelles.</ab>
+               </div>
+            </div>
+            <div type="sec" n="6">
+               <div type="sub" n="1">
+                  <ab>Si autem dixeris multos etiam constantes uiros hac esse sententia. idcirco longe magis contemnendos dicimus. Nam si sponte sua contemptibiles sunt: cum multi fuerint. maiorem in modum digni sunt qui contemnantur.</ab>
+               </div>
+               <div type="sub" n="2">
+                  <ab>Singulorum enim amentia simul collecta: multitudine ipsa fit auctior. Quamobrem si quis eos sigillatim castigaret: facile quod uellet assequeretur. sin cunctos simul: nullus esset correctioni locus. cum numero ipso stulticia crescat. et pecudum more ducantur: quocunque inuicem secularem gloriam atque opinionem secuti.</ab>
+               </div>
+               <div type="sub" n="3">
+                  <ab>Agite quid hanc popularem gloriam tantopere desideratis? Nolite inquam fratres obsecro. Glorie namque cupiditas: omnia commiscuit. Auariciam. Inuidiam. Calumniam: insidias peperit: et qui nulla affecti sunt iniuria in illos qui nihil de ipsis male meriti sunt: et armat et efferat.</ab>
+               </div>
+               <div type="sub" n="4">
+                  <ab>Hec amicicie. hec consuetudinis obliuiscitur. Nihil se pudet. sed omni abiecta uirtute omnibus bellum indicit. Semper inconstans: semper inuisa. Et sane ira et uiolentus et intolerabilis morbus est. non tamen semper nocumento esse solet. sed dumtaxat cum irritatur.</ab>
+               </div>
+               <div type="sub" n="5">
+                  <ab>Inanis autem gloria: omni tempore pestifera est. Nunquam cessat nunquam remittitur: nisi ratione et cohibeatur et sedetur. semper presto est: non solum peccandi se hortatricem exhibens. uerum etiam si quid recte faciamus id e manibus summa ui eripere contendit. uel nihil recti a nobis inchoari perficique permittit.</ab>
+               </div>
+               <div type="sub" n="6">
+                  <ab>Quod si auariciam Paulus idolorum seruitutem appellat: eius matrem: radicem: fontem. hoc est inanem gloriam: quo nomine merebitur appellari? Nullum quidem si recte eius maliciam contemplabimur: dignum inueniemus.</ab>
+               </div>
+               <div type="sub" n="7">
+                  <ab>Abstineamus ergo dilectissimi: et perniciosum hoc exuamus uestimentum: quo discisso et procul abiecto: fiamus aliquando liberi: ueram induti libertatem. et uere nobilitatis que a deo nobis elargita est. cognitionem non negligamus. sed secularem gloriam.</ab>
+               </div>
+               <div type="sub" n="8">
+                  <ab>qua nihil risu dignius: nihil turpius: nihil ignominiosius. Hoc multis sane rationibus uideri licet. Siquidem huius glorie cupiditas ignominia est. Est autem uera gloria: eam ut nullius momenti contemnere et ad diuinam uoluntatem: omnia: et uerba et opera nostra dirigere.</ab>
+               </div>
+               <div type="sub" n="9">
+                  <ab>hoc pacto ab eo qui cuncta certa ratione intelligit: mercedem accipere poterimus: si eo solo erimus spectatore contenti. Quid enim nobis opus est ut alii opera nostra inspitiant. cum is nos intueatur qui unicuique pro meritis retributurus est premium?</ab>
+               </div>
+               <div type="sub" n="10">
+                  <ab>Nonne hoc ridiculum atque absurdum: cum quidquid seruus operatur ad gratiam et amorem sui domini conciliandum faciat. eoque uidente et probante seruitium suum contentus sit: neque aliorum laudibus moueatur? Nos cum tantum tamque summum dominum habeamus: alios qui nos et opera nostra uideant et probent disquirere. maxime cum nihil uel nobis utilitatis afferre. sed tantum inspicere possint que facimus? Accedit ad hoc quod omnis noster labor inanis fit et irritus.</ab>
+               </div>
+               <div type="sub" n="11">
+                  <ab>Non ita obsecro dilectissimi. non ita. sed unde premium nobis futurum est: inde totis uiribus id comparare curemus. deum operum nostrorum et laudatorem et spectatorem: adhibeamus. nihil nobis cum humano iudicio. Quod si hanc gloriam assequi uoluerimus: tunc profecto consequemur: cum diuinam tantum implorabimus. Qui me glorificat: glorificabo inquit.</ab>
+               </div>
+               <div type="sub" n="12">
+                  <ab>Et quemadmodum tunc maxime diuitiis affluimus: cum eas contemnimus et diuinas tantum eflagitamus. Querite enim inquit regnum dei et hec omnia adicientur uobis. itidem in gloria usu uenit. quando iam sine periculo et diuitie nobis et glorie largiri possunt: tunc eas plena et exuberanti manu: diuina nobis benignitas elargitur.</ab>
+               </div>
+               <div type="sub" n="13">
+                  <ab>Sine periculo autem: tunc his fruimur: cum nos capere et exuperare nequeunt: neque tanquam seruis imperant. sed nobis seruiunt: easque et domini et liberi: possidemus. propterea earum nobis amorem prohibet deus: ne turpi his seruicio subiciamur. Quod si assequimur: incredibili nobis libertate omnia instaurat. Quid enim Paulo clarius. quid gloriosius: qui non humanam gloriam se querere profitetur?</ab>
+               </div>
+               <div type="sub" n="14">
+                  <ab>Quid nihil habente: et omnia possidente locupletius? Cum enim ut iam dixi neque pecunie: neque glorie cupiditate uincimur: tunc eas affatim accipimus: tunc eis fruimur. Si igitur nobis gloriam comparare cupimus: gloriam fugiamus. hoc enim pacto diuina seruare precepta: et presentibus bonis et futuris: frui poterimus. quorum utinam fiamus participes. Gratia et benignitate domini nostri Ihesu christi: per quem et cum quo patri gloria simul et spiritui sancto in secula. Amen.</ab>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

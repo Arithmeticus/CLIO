@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.sch" phase="basic" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev"
+   id="tag:chrisnighman.com,2017:tan-a-div:cpg-4425">
+   <head>
+      <name>Alignment of versions of Chrysostom's homilies on John</name>
+      <rights-excluding-sources which="by-sa_4.0" rights-holder="cn"/>
+      <key>
+         <IRI>tag:chrisnighman.com,2017:tan-key:clio</IRI>
+         <name>Vocabulary associated with the Chrysostomus Latinus in Iohannem Online (CLIO)
+            Project</name>
+         <location when-accessed="2017-03-30T13:38:06.306-04:00" href="../TAN-key/CLIO.TAN-key.xml"
+         />
+      </key>
+      <source xml:id="Burg-1173">
+         <IRI>tag:chrisnighman.com,2017:cpg-4425-lat-1173</IRI>
+         <name>Explanatio in sanctum Iohannem</name>
+         <location href="../cpg%204425%20lat%201173%20Burgundio-repopulate.xml"
+            when-accessed="2017-04-06T23:00:06.734-04:00"/>
+      </source>
+      <source xml:id="Grif-1470">
+         <IRI>tag:chrisnighman.com,2017:cpg-4425-lat-1470</IRI>
+         <name>Explanatio in sanctum Iohannem</name>
+         <location when-accessed="2017-04-06T15:36:42.185-04:00"
+            href="../cpg%204425%20lat%201470%20Griffolini-repopulate.xml"/>
+      </source>
+      <source xml:id="Eras-1530">
+         <IRI>tag:chrisnighman.com,2017:cpg-4425-lat-1530</IRI>
+         <name>Explanatio in sanctum Iohannem</name>
+         <location href="../cpg%204425%20lat%201530%20Erasmus.xml"
+            when-accessed="2017-05-25"/>
+      </source>
+      <source xml:id="Mont-1728">
+         <IRI>tag:chrisnighman.com,2017:cpg-4425-lat-1728</IRI>
+         <name>Explanatio in sanctum Iohannem</name>
+         <location href="../cpg%204425%20lat%201728%20Montfaucon-repopulate.xml"
+            when-accessed="2017-04-06T23:00:31.647-04:00"/>
+      </source>
+      <source xml:id="PG-1862">
+         <IRI>tag:chrisnighman.com,2017:cpg-4425-lat-1862</IRI>
+         <name>Explanatio in sanctum Iohannem</name>
+         <location href="../cpg%204425%20lat%201862%20PG.xml"
+            when-accessed="2017-04-06T23:00:53.363-04:00"/>
+      </source>
+      <!--<source xml:id="eng">
+         <IRI>tag:kalvesmaki.com,2014:cpg-4425-eng-1889</IRI>
+         <name>St. John Chrysostom's Homilies on the Gospel of St. John</name>
+         <location href="../../../../../Dropbox/TAN/library/chrysostom/cpg%204425%20eng%201889.xml"
+            when-accessed="2017-05-29T14:01:25.245-04:00"/>
+      </source>
+      <source xml:id="grc">
+         <IRI>tag:kalvesmaki.com,2014:cpg-4425-grc-1862</IRI>
+         <name>St. John Chrysostom's Homilies on the Gospel of St. John</name>
+         <name xml:lang="lat">In Joannem (homiliae 1-88)</name>
+         <name xml:lang="grc">ΤΟΥ ΕΝ ΑΓΙΟΙΣ ΠΑΤΡΟΣ ΗΜΩΝ ΙΩΑΝΝΟΥ ΤΟΥ ΧΡΥΣΟΣΤΟΜΟΥ ΤΑ ΕΥΡΙΣΚΟΜΕΝΑ ΠΑΝΤΑ. ΥΠΟΜΝΗΜΑ Εἰς τὸν ἅγιον Ἰωάννην τὸν Ἀπόστολον καὶ Εὐαγγελιστήν.</name>
+         <location href="../../../../../Dropbox/TAN/library/chrysostom/cpg%204425%20grc%201862%20PG.xml" when-accessed="2017-05-28T06:29:59.316-05:00"/></source>
+      -->
+      <declarations/>
+      <agent xml:id="cn" roles="editor creator" which="Chris Nighman"/>
+      <agent xml:id="jk" roles="editor" which="Joel Kalvesmaki"/>
+      <role xml:id="creator" which="creator"/>
+      <role xml:id="editor" which="editor"/>
+      <change when="2017-04-06" who="jk">Started file</change>
+   </head>
+   <body/>
+</TAN-A-div>
