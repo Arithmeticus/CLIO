@@ -1,0 +1,10 @@
+# The following files are suppressed
+*.html
+*.xhtml
+*.pdf
+*.sh
+*.bak
+testing*
+private*
+.DS_Store
+desktop.ini
