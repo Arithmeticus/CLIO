@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-key xmlns="tag:textalign.net,2015:ns" id="tag:chrisnighman.com,2017:tan-key:clio"
-    TAN-version="1 dev">
+<?xml-model href="../../../TAN-2018/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-key xmlns="tag:textalign.net,2015:ns" id="tag:chrisnighman.com,2017:tan-key:clio" TAN-version="2018">
     <head>
         <name>Vocabulary associated with the Chrysostomus Latinus in Iohannem Online (CLIO)
             Project</name>
-        <master-location href="CLIO.TAN-key.xml"/>
-        <rights-excluding-sources rights-holder="nighman" which="by-sa_4.0"/>
-        <declarations/>
-        <agent roles="pm" xml:id="nighman">
-            <IRI>http://viaf.org/viaf/261375693</IRI>
-            <IRI>tag:chrisnighman.com,2017:self</IRI>
-            <name>Chris Nighman</name>
-        </agent>
-        <agent roles="editor creator" xml:id="kalvesmaki">
-            <IRI>http://viaf.org/viaf/299582703</IRI>
-            <name>Joel Kalvesmaki</name>
-        </agent>
-        <role xml:id="editor" which="editor"/>
-        <role xml:id="creator" which="creator"/>
-        <role xml:id="pm" which="project manager"/>
+        <license which="by-sa_4.0"/>
+        <licensor who="nighman"/>
+        <definitions>
+            <person xml:id="nighman">
+                <IRI>http://viaf.org/viaf/261375693</IRI>
+                <IRI>tag:chrisnighman.com,2017:self</IRI>
+                <name>Chris Nighman</name>
+            </person>
+            <person xml:id="kalvesmaki">
+                <IRI>http://viaf.org/viaf/299582703</IRI>
+                <IRI>tag:kalvesmaki.com,2014:self</IRI>
+                <name>Joel Kalvesmaki</name>
+            </person>
+            <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/get%20inclusions/core-for-TAN-output.xsl</desc></algorithm>
+            <role xml:id="editor" which="editor"/>
+            <role xml:id="creator" which="creator"/>
+            <role xml:id="pm" which="project manager"/>
+            <role xml:id="stylesheet" which="stylesheet"/>
+        </definitions>
+        <alter>
+        </alter>
+        <resp roles="pm" who="nighman"/>
+        <resp roles="editor creator" who="kalvesmaki"/>
+        <resp who="xslt1" roles="stylesheet"/>
         <change when="2016-03-29" who="kalvesmaki">started file</change>
+        <change who="xslt1" when="2018-01-06T14:19:20.632-05:00">TAN file updated to 2018 schemas.</change>
     </head>
-    <body affects-element="agent" in-progress="false">
+    <body affects-element="person">
         <item>
             <IRI>http://viaf.org/viaf/261375693</IRI>
             <IRI>tag:chrisnighman.com,2017:self</IRI>
@@ -31,6 +40,7 @@
         </item>
         <item>
             <IRI>http://viaf.org/viaf/299582703</IRI>
+            <IRI>tag:kalvesmaki.com,2014:self</IRI>
             <name>Joel Kalvesmaki</name>
         </item>
         <group affects-element="normalization">
@@ -59,14 +69,52 @@
                 <IRI>tag:chrisnighman.com,2017:normalization:orthography:lat:number-words-to-numerals</IRI>
                 <name>numbers to numerals</name>
                 <desc>Any Latin word for a number is converted to a numeral joined with "or", e.g.,
-                    "quattuor" - > "iiijor"</desc>
+                    "quattuor" - &gt; "iiijor"</desc>
             </item>
         </group>
         <item affects-element="work">
             <IRI>tag:chrisnighman.com,2017:work:cpg-4425</IRI>
             <name>CPG 4425</name>
-            <name xml:lang="lat">Iohannis Crisostomi omelie in Iohannem</name>
-            <name xml:lang="eng">John Chrysostom's 88 homilies on the Gospel of John</name>
+            <name>John Chrysostom's 88 homilies on the Gospel of John</name>
         </item>
+        <group affects-element="source scriptum">
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:ms:bnf:lat:15284</IRI>
+                <name>Paris, Bibliothèque nationale de France, Lat. 15284</name>
+                <name>BnF Lat. 15284</name>
+                <name>BnF MS lat. 15284</name>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:ms:bl:harley:3298</IRI>
+                <name>BL MS Harley 3298</name>
+                <name>Harley 3298</name>
+                <name>British Library, MS Harley 3298</name>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:griffolini:1470</IRI>
+                <name>1470 edition by Griffolini</name>
+                <name>Griffolini 1470 edition</name>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:griffolini:1486</IRI>
+                <name>1486 edition by Griffolini</name>
+                <name>Griffolini 1486 edition</name>
+                <desc>Printed in Cologne</desc>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:erasmus:1530</IRI>
+                <name>1530 edition of Griffolini's translation by Erasmus</name>
+                <name>Erasmus 1530 edition</name>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:montfaucon:1728</IRI>
+                <name>1728 edition by Montfaucon</name>
+                <name>Montfaucon 1728 edition</name>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:patrologia-graeca:v44</IRI>
+                <name>Patrologia Graeca volume 44</name>
+            </item>
+        </group>
     </body>
 </TAN-key>

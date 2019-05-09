@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-1-dev/schemas/TAN-A-div.sch" phase="basic" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-1-dev/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="1 dev"
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-A-div.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="2018"
    id="tag:chrisnighman.com,2017:tan-a-div:cpg-4425">
    <head>
       <name>Alignment of versions of Chrysostom's homilies on John</name>
-      <rights-excluding-sources which="by-sa_4.0" rights-holder="cn"/>
+      <license which="by-sa_4.0"/>
+      <licensor who="cn"/>
       <key>
          <IRI>tag:chrisnighman.com,2017:tan-key:clio</IRI>
          <name>Vocabulary associated with the Chrysostomus Latinus in Iohannem Online (CLIO)
@@ -15,55 +16,1213 @@
          <location when-accessed="2017-03-30T13:38:06.306-04:00" href="../TAN-key/CLIO.TAN-key.xml"
          />
       </key>
-      <source xml:id="Burg-1173">
+      <source xml:id="burg">
          <IRI>tag:chrisnighman.com,2017:cpg-4425-lat-1173</IRI>
          <name>Explanatio in sanctum Iohannem</name>
-         <location href="../cpg%204425%20lat%201173%20Burgundio-repopulate.xml"
-            when-accessed="2017-04-06T23:00:06.734-04:00"/>
+         <name>Explanatio</name>
+         <location href="../cpg%204425%20lat%201173%20Burgundio.xml" when-accessed="2018-01-06"/>
       </source>
-      <source xml:id="Grif-1470">
+      <source xml:id="grif">
          <IRI>tag:chrisnighman.com,2017:cpg-4425-lat-1470</IRI>
-         <name>Explanatio in sanctum Iohannem</name>
-         <location when-accessed="2017-04-06T15:36:42.185-04:00"
-            href="../cpg%204425%20lat%201470%20Griffolini-repopulate.xml"/>
+         <name>Omeliae in sanctum Iohannem</name>
+         <name>Omeliae</name>
+         <location when-accessed="2018-01-06" href="../cpg%204425%20lat%201470%20Griffolini.xml"/>
       </source>
-      <source xml:id="Eras-1530">
-         <IRI>tag:chrisnighman.com,2017:cpg-4425-lat-1530</IRI>
-         <name>Explanatio in sanctum Iohannem</name>
-         <location href="../cpg%204425%20lat%201530%20Erasmus.xml"
-            when-accessed="2017-05-25"/>
-      </source>
-      <source xml:id="Mont-1728">
+      <source xml:id="mont">
          <IRI>tag:chrisnighman.com,2017:cpg-4425-lat-1728</IRI>
-         <name>Explanatio in sanctum Iohannem</name>
-         <location href="../cpg%204425%20lat%201728%20Montfaucon-repopulate.xml"
-            when-accessed="2017-04-06T23:00:31.647-04:00"/>
+         <name>Commentarius in sanctum Iohannem</name>
+         <name>Commentarius</name>
+         <location href="../cpg%204425%20lat%201728%20Montfaucon.xml" when-accessed="2018-01-06"/>
       </source>
-      <source xml:id="PG-1862">
-         <IRI>tag:chrisnighman.com,2017:cpg-4425-lat-1862</IRI>
-         <name>Explanatio in sanctum Iohannem</name>
-         <location href="../cpg%204425%20lat%201862%20PG.xml"
-            when-accessed="2017-04-06T23:00:53.363-04:00"/>
-      </source>
-      <!--<source xml:id="eng">
-         <IRI>tag:kalvesmaki.com,2014:cpg-4425-eng-1889</IRI>
-         <name>St. John Chrysostom's Homilies on the Gospel of St. John</name>
-         <location href="../../../../../Dropbox/TAN/library/chrysostom/cpg%204425%20eng%201889.xml"
-            when-accessed="2017-05-29T14:01:25.245-04:00"/>
-      </source>
-      <source xml:id="grc">
-         <IRI>tag:kalvesmaki.com,2014:cpg-4425-grc-1862</IRI>
-         <name>St. John Chrysostom's Homilies on the Gospel of St. John</name>
-         <name xml:lang="lat">In Joannem (homiliae 1-88)</name>
-         <name xml:lang="grc">ΤΟΥ ΕΝ ΑΓΙΟΙΣ ΠΑΤΡΟΣ ΗΜΩΝ ΙΩΑΝΝΟΥ ΤΟΥ ΧΡΥΣΟΣΤΟΜΟΥ ΤΑ ΕΥΡΙΣΚΟΜΕΝΑ ΠΑΝΤΑ. ΥΠΟΜΝΗΜΑ Εἰς τὸν ἅγιον Ἰωάννην τὸν Ἀπόστολον καὶ Εὐαγγελιστήν.</name>
-         <location href="../../../../../Dropbox/TAN/library/chrysostom/cpg%204425%20grc%201862%20PG.xml" when-accessed="2017-05-28T06:29:59.316-05:00"/></source>
-      -->
-      <declarations/>
-      <agent xml:id="cn" roles="editor creator" which="Chris Nighman"/>
-      <agent xml:id="jk" roles="editor" which="Joel Kalvesmaki"/>
-      <role xml:id="creator" which="creator"/>
-      <role xml:id="editor" which="editor"/>
+      <definitions>
+         <algorithm xml:id="xslt2">
+            <IRI>tag:textalign.net,2015:stylesheet:convert</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <desc>Stylesheet at:
+               ../../../TAN-2018/do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+         </algorithm>
+         <person xml:id="cn" which="Chris Nighman"/>
+         <person xml:id="jk" which="Joel Kalvesmaki"/>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI>
+            <name>Stylesheet to populate a TAN-A-div file from collections.</name>
+            <desc>Stylesheet at:
+               ../../../TAN-2018/do%20things/get%20inclusions/core-for-TAN-output.xsl</desc>
+         </algorithm>
+         <role xml:id="creator" which="creator"/>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+
+         <scriptum xml:id="bnf15284" which="BnF Lat. 15284"/>
+         <scriptum xml:id="harley3298" which="BL MS Harley 3298"/>
+         <scriptum xml:id="grif1470" which="Griffolini 1470 edition"/>
+         <scriptum xml:id="grif1486" which="Griffolini 1486 edition"/>
+         <scriptum xml:id="eras1530" which="Erasmus 1530 edition"/>
+         <scriptum xml:id="mont1728" which="Montfaucon 1728 edition"/>
+         <scriptum xml:id="PG-44" which="Patrologia Graeca volume 44"/>
+
+         <alias id="Paris" idrefs="bnf15284"/>
+         <alias id="Harley" idrefs="harley3298"/>
+
+         <div-type xml:id="p" which="page"/>
+         <div-type xml:id="fol" which="folio"/>
+         <div-type which="column (page)" xml:id="col"/>
+
+         <verb xml:id="reads" which="has other reading"/>
+         <verb xml:id="resumes-at" which="resumes at"/>
+         <verb xml:id="omits" which="omits"/>
+
+         <token-definition src="*" which="letters and punctuation"/>
+      </definitions>
+      <resp who="xslt2" roles="stylesheet"/>
+      <resp roles="editor creator" who="cn"/>
+      <resp roles="editor" who="jk"/>
+      <resp who="xslt1" roles="stylesheet"/>
       <change when="2017-04-06" who="jk">Started file</change>
+      <change who="xslt1" when="2018-01-06T14:41:47.982-05:00">TAN file updated to 2018
+         schemas.</change>
+      <change who="xslt2" when="2018-01-18T14:40:49.476-05:00">Conversion of input at
+         zip:file:/Users/joelk/Dropbox/CLIO%20commons/pre-TAN/Final%20versions%20of%20homily%20transcriptions/Explanatio01_CN%20done.docx!/
+         to TAN-A-div at
+         file:/Users/joelk/Dropbox/TAN/library-clio/cpg4425/TAN-A-div/cpg%204425.TAN-A-div-2018-01-18.xml</change>
+      <change who="xslt2" when="2018-02-09T20:22:23.957-07:00">Conversion of input at
+         zip:file:/C:/Users/Dan/Google%20Drive/CLIO%20commons/Final%20versions%20of%20homily%20transcriptions/Explanatio01_CN%20done.docx!/
+         to TAN-A-div at
+         file:/C:/Users/Dan/Google%20Drive/CLIO%20commons/TAN%20library/CLIO/TAN-A-div/cpg%204425.TAN-A-div%20(1)-2018-02-09.xml</change>
+      <change who="xslt2" when="2018-04-03T20:55:11.264-06:00">Conversion of input at
+         zip:file:/G:/My%20Drive/CLIO%20commons/Final%20versions%20of%20homily%20transcriptions/Explanatio46_CN%20done.docx!/
+         to TAN-A-div at
+         file:/G:/My%20Drive/CLIO%20commons/TAN%20library/CLIO/TAN-A-div/cpg%204425.TAN-A-div-2018-04-03.xml</change>
    </head>
-   <body/>
+   <body claimant="cn">
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">81va</object>
+         <locus src="burg">
+            <tok ref="46 1 1" val="Murmurabant"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">106vb</object>
+         <locus src="burg">
+            <tok ref="46 1 1" val="Murmurabant"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">81vb</object>
+         <locus src="burg">
+            <tok ref="46 1 6" val="erat"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">107ra</object>
+         <locus src="burg">
+            <tok ref="46 1 7" val="murmurando"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">107rb</object>
+         <locus src="burg">
+            <tok ref="46 1 20" val="quod"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">82ra</object>
+         <locus src="burg">
+            <tok ref="46 1 23" val="ostendens"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">107va</object>
+         <locus src="burg">
+            <tok ref="46 2 1" val="utilitatem"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">82rb</object>
+         <locus src="burg">
+            <tok ref="46 2 5" val="ego"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">107vb</object>
+         <locus src="burg">
+            <tok ref="46 3 14">
+               <from val="sermonem concurrunt"/>
+               <to val="concurrunt" chars="1-3"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">82va</object>
+         <locus src="burg">
+            <tok ref="46 2 23" val="illorum"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">108ra</object>
+         <locus src="burg">
+            <tok ref="46 2 31" val="non"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">82vb</object>
+         <locus src="burg">
+            <tok ref="46 3 5" val="hiis"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">108rb</object>
+         <locus src="burg">
+            <tok ref="46 3 8" val="nutrio"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">83ra</object>
+         <locus src="burg">
+            <tok ref="46 3 20" val="animam"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">108va</object>
+         <locus src="burg">
+            <tok ref="46 4 1" val="fons"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">108vb</object>
+         <locus src="burg">
+            <tok ref="46 4 11" val="salutem"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">83rb</object>
+         <locus src="burg">
+            <tok ref="46 4 13" val="regalem"/>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">149r</object>
+         <locus src="grif">
+            <tok ref="46 1 1" val="Murmurabant"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="resumes-at">
+         <object units="p">893</object>
+         <locus src="grif">
+            <tok ref="46 1 1" val="Murmurabant"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>panis uiuus</object>
+         <locus src="grif">
+            <tok ref="46 1 1" val="panis"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>et cetera</object>
+         <locus src="grif">
+            <tok ref="46 1 1">
+               <from val="cuius"/>
+               <to val="descendi" pos="2"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">149v</object>
+         <locus src="grif">
+            <tok ref="46 1 7" val="tulerunt"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="omits">
+         <locus src="grif">
+            <tok ref="46 1 9" val="non"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="omits">
+         <locus src="grif">
+            <tok ref="46 1 9" val="quod" pos="2"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>Christus?</object>
+         <locus src="grif">
+            <tok ref="46 1 12">
+               <from val="christus"/>
+               <to val="\."/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>dignitatem,</object>
+         <locus src="grif">
+            <tok ref="46 1 18">
+               <from val="dignitatem"/>
+               <to val="\?"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>sunt?</object>
+         <locus src="grif">
+            <tok ref="46 1 18">
+               <from val="sunt"/>
+               <to val="\."/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="resumes-at">
+         <object units="p">894</object>
+         <locus src="grif">
+            <tok ref="46 1 25" val="Nunquid"/>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">150r</object>
+         <locus src="grif">
+            <tok ref="46 1 25" val="nunc"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="omits">
+         <locus src="grif">
+            <tok ref="46 1 25">
+               <from val="dei" pos="2"/>
+               <to val="filium"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>nocumento?</object>
+         <locus src="grif">
+            <tok ref="46 2 5">
+               <from val="nocumento"/>
+               <to val="\." pos="5"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>testator.</object>
+         <locus src="grif">
+            <tok ref="46 2 7">
+               <from val="testatur"/>
+               <to val="\?"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">150v</object>
+         <locus src="grif">
+            <tok ref="46 2 11" val="manducauerunt"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="omits">
+         <locus src="grif">
+            <tok ref="46 2 24" val="eterne"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>dixisti,</object>
+         <locus src="grif">
+            <tok ref="46 2 30">
+               <from val="dixisti"/>
+               <to val="\?"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="resumes-at">
+         <object units="p">895</object>
+         <locus src="grif">
+            <tok ref="46 2 32" val="Ergo"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>his</object>
+         <locus src="grif">
+            <tok ref="46 2 33" val="iis"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>quidem</object>
+         <locus src="grif">
+            <tok ref="46 2 34" val="quidam"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>his</object>
+         <locus src="grif">
+            <tok ref="46 2 34" val="iis"/>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">151r</object>
+         <locus src="grif">
+            <tok ref="46 2 34" val="cepimus"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>seruis, a</object>
+         <locus src="grif">
+            <tok ref="46 3 3" val="seruis"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>impleremur?</object>
+         <locus src="grif">
+            <tok ref="46 3 4">
+               <from val="impleremur"/>
+               <to val="\." pos="2"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>adstringeret</object>
+         <locus src="grif">
+            <tok ref="46 3 5" val="astringeret"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>his</object>
+         <locus src="grif">
+            <tok ref="46 3 8" val="iis"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>uolui, et</object>
+         <locus src="grif">
+            <tok ref="46 3 10">
+               <from val="uolui"/>
+               <to val="\."/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>medio</object>
+         <locus src="grif">
+            <tok ref="46 3 16" val="media"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>significauit</object>
+         <locus src="grif">
+            <tok ref="46 3 17" val="sanctificauit"/>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">151v</object>
+         <locus src="grif">
+            <tok ref="46 3 18" val="in"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>huic</object>
+         <locus src="grif">
+            <tok ref="46 4 5" val="hic"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>adstiterunt</object>
+         <locus src="grif">
+            <tok ref="46 4 5" val="astiterunt"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>enim si</object>
+         <locus src="grif">
+            <tok ref="46 4 6" val="nisi"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>angelis et</object>
+         <locus src="grif">
+            <tok ref="46 4 10">
+               <from val="angelis"/>
+               <to val=":"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="resumes-at">
+         <object units="p">896</object>
+         <locus src="grif">
+            <tok ref="46 4 12" val="Qui"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>his</object>
+         <locus src="grif">
+            <tok ref="46 4 14" val="iis"/>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">152r</object>
+         <locus src="grif">
+            <tok ref="46 4 14" val="Irritam"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>conculcauerit</object>
+         <locus src="grif">
+            <tok ref="46 4 15" val="conculcauit"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>secula seculorum</object>
+         <locus src="grif">
+            <tok ref="46 4 20" val="secula"/>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">269</object>
+         <locus src="mont">
+            <tok ref="46 1 1" val="Murmurabant"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">257</object>
+         <locus src="mont">
+            <tok ref="46 1 1" val="Murmurabant"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">258</object>
+         <locus src="mont">
+            <tok ref="46 1 13" val="posse"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>quia id</object>
+         <locus src="mont">
+            <tok ref="46 1 13" val="quod"/>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">270</object>
+         <locus src="mont">
+            <tok ref="46 1 15" val="fruitur"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>aequalitatem. Nam</object>
+         <locus src="mont">
+            <tok ref="46 1 23">
+               <from val="aequalitatem"/>
+               <to val=","/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="omits">
+         <locus src="mont">
+            <tok ref="46 1 23" val="et"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>secundum causae rationem</object>
+         <locus src="mont">
+            <tok ref="46 1 27" val="id"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">259</object>
+         <locus src="mont">
+            <tok ref="46 1 29" val="futuram"/>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">271</object>
+         <locus src="mont">
+            <tok ref="46 2 2" val="praecipue"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>nocerent.</object>
+         <locus src="mont">
+            <tok ref="46 2 5">
+               <from val="nocerent"/>
+               <to val="\?"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">260</object>
+         <locus src="mont">
+            <tok ref="46 2 19" val="non"/>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">272</object>
+         <locus src="mont">
+            <tok ref="46 2 22" val="satis"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>Ergo ob illam experientiam</object>
+         <locus src="mont">
+            <tok ref="46 2 32">
+               <from val="Ergo"/>
+               <to val="experientia" pos="2"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>amore. Ideo</object>
+         <locus src="mont">
+            <tok ref="46 3 2">
+               <from val="amore"/>
+               <to val="," pos="2"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">261</object>
+         <locus src="mont">
+            <tok ref="46 3 7" val="mensa"/>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">273</object>
+         <locus src="mont">
+            <tok ref="46 3 8" val="aliis"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>aliisque</object>
+         <locus src="mont">
+            <tok ref="46 3 8" val="aliis"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">262</object>
+         <locus src="mont">
+            <tok ref="46 4 4" val="et" pos="2"/>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">274</object>
+         <locus src="mont">
+            <tok ref="46 4 5" val="lucis"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">83rb</object>
+         <locus src="burg">
+            <tok ref="47 1 1" val="Dicit"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">108vb</object>
+         <locus src="burg">
+            <tok ref="47 1 1" val="Dicit"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">109ra</object>
+         <locus src="burg">
+            <tok ref="47 1 4" val="Si"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">83va</object>
+         <locus src="burg">
+            <tok ref="47 1 9" val="mortuus"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">109rb</object>
+         <locus src="burg">
+            <tok ref="47 1 18" val="Quod"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">83vb</object>
+         <locus src="burg">
+            <tok ref="47 1 24" val="perit"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">109va</object>
+         <locus src="burg">
+            <tok ref="47 1 32" val="et"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">84ra</object>
+         <locus src="burg">
+            <tok ref="47 2 2" val="asper"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">109vb</object>
+         <locus src="burg">
+            <tok ref="47 2 7" val="murmurabant"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">84rb</object>
+         <locus src="burg">
+            <tok ref="47 2 15" val="caro"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">110ra</object>
+         <locus src="burg">
+            <tok ref="47 2 18" val="Verba"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">84va</object>
+         <locus src="burg">
+            <tok ref="47 2 28" val="qui" pos="2"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">110rb</object>
+         <locus src="burg">
+            <tok ref="47 2 30" val="et"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">84vb</object>
+         <locus src="burg">
+            <tok ref="47 3 7" val="Et"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">110va</object>
+         <locus src="burg">
+            <tok ref="47 3 7" val="manifeste"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">110vb</object>
+         <locus src="burg">
+            <tok ref="47 3 20" val="amatorem"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">85ra</object>
+         <locus src="burg">
+            <tok ref="47 3 22" val="filius" pos="2"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">111ra</object>
+         <locus src="burg">
+            <tok ref="47 4 4" val="nunc"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">85rb</object>
+         <locus src="burg">
+            <tok ref="47 4 7" val="Ideoque"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">111rb</object>
+         <locus src="burg">
+            <tok ref="47 4 14" val="quoniam" pos="2"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">85va</object>
+         <locus src="burg">
+            <tok ref="47 5 7" val="rapiamus"/>
+         </locus>
+      </claim>
+      <claim subject="Harley" verb="resumes-at">
+         <object units="fol">111va</object>
+         <locus src="burg">
+            <tok ref="47 5 13" val="Nunc"/>
+         </locus>
+      </claim>
+      <claim subject="Paris" verb="resumes-at">
+         <object units="fol">85vb</object>
+         <locus src="burg">
+            <tok ref="47 5 21" val="relinquitur"/>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">152r</object>
+         <locus src="grif">
+            <tok ref="47 1 1" val="Dixit"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="resumes-at">
+         <object units="p">896</object>
+         <locus src="grif">
+            <tok ref="47 1 1" val="Dixit"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>et cetera</object>
+         <locus src="grif">
+            <tok ref="47 1 2">
+               <from val="Qui"/>
+               <to val="\."/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">152v</object>
+         <locus src="grif">
+            <tok ref="47 1 12" val="autem"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="omits">
+         <locus src="grif">
+            <tok ref="47 1 13" val="et"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>arbitrareris</object>
+         <locus src="grif">
+            <tok ref="47 1 19" val="arbitraris"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>non</object>
+         <locus src="grif">
+            <tok ref="47 1 25" val="neque"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="resumes-at">
+         <object units="p">897</object>
+         <locus src="grif">
+            <tok ref="47 1 26" val="eternum"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>constat?</object>
+         <locus src="grif">
+            <tok ref="47 1 29">
+               <from val="constat"/>
+               <to val="\."/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">153r</object>
+         <locus src="grif">
+            <tok ref="47 1 30" val="noluit"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>nolint</object>
+         <locus src="grif">
+            <tok ref="47 1 30" val="noluit"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>dicit</object>
+         <locus src="grif">
+            <tok ref="47 1 37" val="dixit"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>sermo?</object>
+         <locus src="grif">
+            <tok ref="47 2 4">
+               <from val="sermo"/>
+               <to val="\."/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>descendisse,</object>
+         <locus src="grif">
+            <tok ref="47 2 4">
+               <from val="descendisse"/>
+               <to val="\?" pos="2"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="omits">
+         <locus src="grif">
+            <tok ref="47 2 8" val="ad"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>credis?</object>
+         <locus src="grif">
+            <tok ref="47 2 8">
+               <from val="credis"/>
+               <to val=":" pos="2"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">153v</object>
+         <locus src="grif">
+            <tok ref="47 2 11" val="cum"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="omits">
+         <locus src="grif">
+            <tok ref="47 2 12" val="si"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>manducare?</object>
+         <locus src="grif">
+            <tok ref="47 2 17">
+               <from val="manducare"/>
+               <to val="\." pos="3"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>quicquam?</object>
+         <locus src="grif">
+            <tok ref="47 2 21">
+               <from val="quicquam"/>
+               <to val="\." pos="2"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>his</object>
+         <locus src="grif">
+            <tok ref="47 2 22" val="iis"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="resumes-at">
+         <object units="p">898</object>
+         <locus src="grif">
+            <tok ref="47 2 23" val="consideranda"/>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">154r</object>
+         <locus src="grif">
+            <tok ref="47 2 27" val="quidam"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>ambitu</object>
+         <locus src="grif">
+            <tok ref="47 3 8" val="abitu"/>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">154v</object>
+         <locus src="grif">
+            <tok ref="47 3 10" val="Quid"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>credimus</object>
+         <locus src="grif">
+            <tok ref="47 3 10" val="credidimus"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>confugiant.</object>
+         <locus src="grif">
+            <tok ref="47 3 14">
+               <from val="confugiant"/>
+               <to val="\?" pos="2"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>quae</object>
+         <locus src="grif">
+            <tok ref="47 3 16" val="quare"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="resumes-at">
+         <object units="p">899</object>
+         <locus src="grif">
+            <tok ref="47 3 24" val="inquit"/>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">155r</object>
+         <locus src="grif">
+            <tok ref="47 4 2" val="apertius"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>respondebit</object>
+         <locus src="grif">
+            <tok ref="47 4 2" val="reprehendit"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>quidam</object>
+         <locus src="grif">
+            <tok ref="47 4 2" val="quidem"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>domine?</object>
+         <locus src="grif">
+            <tok ref="47 4 4">
+               <from val="domine"/>
+               <to val="\." pos="5"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>sequamini</object>
+         <locus src="grif">
+            <tok ref="47 4 10" val="sequimini"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>fecerat</object>
+         <locus src="grif">
+            <tok ref="47 5 2" val="faceret"/>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">155v</object>
+         <locus src="grif">
+            <tok ref="47 5 4" val="participatio"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>adsciscimus</object>
+         <locus src="grif">
+            <tok ref="47 5 7" val="asciscimus"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>capiemus,</object>
+         <locus src="grif">
+            <tok ref="47 5 9">
+               <from val="capiemus"/>
+               <to val="\?" pos="3"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>flos?</object>
+         <locus src="grif">
+            <tok ref="47 5 10">
+               <from val="flos"/>
+               <to val="\." pos="2"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>his</object>
+         <locus src="grif">
+            <tok ref="47 5 11" val="iis"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>his</object>
+         <locus src="grif">
+            <tok ref="47 5 15" val="iis"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>his</object>
+         <locus src="grif">
+            <tok ref="47 5 15" val="iis" pos="2"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="resumes-at">
+         <object units="p">900</object>
+         <locus src="grif">
+            <tok ref="47 5 16" val="tectum"/>
+         </locus>
+      </claim>
+      <claim subject="grif1470" verb="resumes-at">
+         <object units="fol">156r</object>
+         <locus src="grif">
+            <tok ref="47 5 21" val="non"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>adueniet</object>
+         <locus src="grif">
+            <tok ref="47 5 21" val="aduenit"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>hortentur</object>
+         <locus src="grif">
+            <tok ref="47 5 22" val="hortemur"/>
+         </locus>
+      </claim>
+      <claim subject="eras1530" verb="reads">
+         <object>secula seculorum, Amen</object>
+         <locus src="grif">
+            <tok ref="47 5 23" val="secula"/>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">275</object>
+         <locus src="mont">
+            <tok ref="47 1 1" val="Dixit"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">261</object>
+         <locus src="mont">
+            <tok ref="47 1 1" val="Dixit"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">262</object>
+         <locus src="mont">
+            <tok ref="47 1 3" val="saeculare"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">263</object>
+         <locus src="mont">
+            <tok ref="47 1 5" val="quis"/>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">276</object>
+         <locus src="mont">
+            <tok ref="47 1 17" val="vivens"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">264</object>
+         <locus src="mont">
+            <tok ref="47 1 27" val="haec"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>et</object>
+         <locus src="mont">
+            <tok ref="47 1 27">
+               <from val="ut" pos="2"/>
+               <to val="," pos="3"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">277</object>
+         <locus src="mont">
+            <tok ref="47 1 36" val="nunc"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">265</object>
+         <locus src="mont">
+            <tok ref="47 2 11" val="est"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>adduxit</object>
+         <locus src="mont">
+            <tok ref="47 2 15" val="adducit"/>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">278</object>
+         <locus src="mont">
+            <tok ref="47 2 16" val="dubitare"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>semetipso:</object>
+         <locus src="mont">
+            <tok ref="47 2 24">
+               <from val="semetipso"/>
+               <to val="\?"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">266</object>
+         <locus src="mont">
+            <tok ref="47 2 30" val="ipsum"/>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">279</object>
+         <locus src="mont">
+            <tok ref="47 2 31" val="ostendens"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>dixit?</object>
+         <locus src="mont">
+            <tok ref="47 3 4">
+               <from val="dixit"/>
+               <to val="\."/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>laudavit?</object>
+         <locus src="mont">
+            <tok ref="47 3 4">
+               <from val="laudavit"/>
+               <to val=","/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>Petrus?</object>
+         <locus src="mont">
+            <tok ref="47 3 10">
+               <from val="Petrus"/>
+               <to val=":"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">280</object>
+         <locus src="mont">
+            <tok ref="47 3 15" val="adjicit"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">267</object>
+         <locus src="mont">
+            <tok ref="47 3 18" val="nec"/>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">281</object>
+         <locus src="mont">
+            <tok ref="47 4 5" val="percontetur"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">268</object>
+         <locus src="mont">
+            <tok ref="47 4 10" val="reprehensurum"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>ne quando</object>
+         <locus src="mont">
+            <tok ref="47 5 5" val="nequando"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="reads">
+         <object>prodis?</object>
+         <locus src="mont">
+            <tok ref="47 5 6">
+               <from val="prodis"/>
+               <to val=":"/>
+            </tok>
+         </locus>
+      </claim>
+      <claim subject="mont1728" verb="resumes-at">
+         <object units="p">282</object>
+         <locus src="mont">
+            <tok ref="47 5 8" val="namque"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">269</object>
+         <locus src="mont">
+            <tok ref="47 5 17" val="sed"/>
+         </locus>
+      </claim>
+      <claim subject="PG-44" verb="resumes-at">
+         <object units="col">270</object>
+         <locus src="mont">
+            <tok ref="47 5 21" val="juvenes"/>
+         </locus>
+      </claim>
+   </body>
 </TAN-A-div>
