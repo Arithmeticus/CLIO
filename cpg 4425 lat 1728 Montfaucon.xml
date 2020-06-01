@@ -15,7 +15,7 @@
          <IRI>tag:chrisnighman.com,2017:tan-key:clio</IRI>
          <name>Vocabulary associated with the Chrysostomus Latinus in Iohannem Online (CLIO)
             Project</name>
-         <location accessed-when="2020-03-01" href="TAN-voc/CLIO.TAN-voc.xml"/>
+         <location accessed-when="2020-06-01" href="TAN-voc/CLIO.TAN-voc.xml"/>
       </vocabulary>
       <source which="Montfaucon 1728 edition"/>
       <adjustments>
