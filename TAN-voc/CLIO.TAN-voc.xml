@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2020/schemas/TAN-voc.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:chrisnighman.com,2017:tan-key:clio" TAN-version="2020">
+    <head>
+        <name>Vocabulary associated with the Chrysostomus Latinus in Iohannem Online (CLIO)
+            Project</name>
+        <license which="by-sa_4.0" licensor="nighman"/>
+        <adjustments>
+        </adjustments>
+        <vocabulary-key>
+            <algorithm xml:id="xslt2">
+                <IRI>tag:textalign.net,2015:stylesheet:convert-tan2018-to-tan2020</IRI>
+                <name>Converter from TAN 2018 to TAN 2020</name>
+                <location href="../../../TAN-2020/applications/convert/convert%20TAN%202018%20to%20TAN%202020.xsl" accessed-when="2020-03-01T09:52:10.963-05:00"/>
+            </algorithm>
+        
+            <person xml:id="nighman">
+                <IRI>http://viaf.org/viaf/261375693</IRI>
+                <IRI>tag:chrisnighman.com,2017:self</IRI>
+                <name>Chris Nighman</name>
+            </person>
+            <person xml:id="kalvesmaki">
+                <IRI>http://viaf.org/viaf/299582703</IRI>
+                <IRI>tag:kalvesmaki.com,2014:self</IRI>
+                <IRI>tag:chrisnighman.com,2017:person:kalvesmaki</IRI>
+                <name>Joel Kalvesmaki</name>
+            </person>
+            <algorithm xml:id="xslt1"><IRI>tag:textalign.net,2015:stylesheet:convert-tan2017-to-tan2018</IRI><name>Stylesheet to populate a TAN-A-div file from collections.</name><desc>Stylesheet at: ../../../TAN-2018/do%20things/get%20inclusions/core-for-TAN-output.xsl</desc>
+                <location href="../../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl" accessed-when="2020-03-01"/></algorithm>
+            <role xml:id="pm" which="project manager"/>
+        </vocabulary-key>
+        
+        <file-resp who="kalvesmaki"/>
+        <resp roles="pm" who="nighman"/>
+        <resp roles="editor creator" who="kalvesmaki"/>
+        <resp roles="stylesheet" who="xslt1 xslt2"/>
+        <change when="2016-03-29" who="kalvesmaki">started file</change>
+        <change who="xslt1" when="2018-01-06T14:19:20.632-05:00">TAN file updated to 2018 schemas.</change>
+        <change who="xslt2" when="2020-03-01T09:52:10.963-05:00">Converted from 2018 to 2020 schemas.</change>
+        <to-do>
+            <comment who="xslt1" when="2018-01-06T14:19:20.632-05:00">File is still in progress.</comment>
+        </to-do>
+    </head>
+    <body affects-element="person">
+        <item>
+            <IRI>http://viaf.org/viaf/261375693</IRI>
+            <IRI>tag:chrisnighman.com,2017:self</IRI>
+            <name>Chris Nighman</name>
+        </item>
+        <item>
+            <IRI>http://viaf.org/viaf/299582703</IRI>
+            <IRI>tag:kalvesmaki.com,2014:self</IRI>
+            <IRI>tag:chrisnighman.com,2017:person:kalvesmaki</IRI>
+            <name>Joel Kalvesmaki</name>
+        </item>
+        <group affects-element="normalization">
+            <item>
+                <IRI>tag:chrisnighman.com,2017:normalization:abbreviations-expanded</IRI>
+                <name>abbreviations expanded</name>
+                <desc>Abbreviations have been expanded</desc>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:normalization:orthography:lat:Vu</IRI>
+                <name>uppercase V lowercase u</name>
+                <desc>Latin letters representing u/V have been written as V for uppercase and u for
+                    lowercase.</desc>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:normalization:orthography:lat:i-in-words</IRI>
+                <name>i not j in words</name>
+                <desc>In Latin words, any j's (J's) are converted to i's (I's).</desc>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:normalization:orthography:lat:j-at-end-of-numerals</IRI>
+                <name>numerals end in j not i</name>
+                <desc>The last i in any Latin numeral is converted to j.</desc>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:normalization:orthography:lat:number-words-to-numerals</IRI>
+                <name>numbers to numerals</name>
+                <desc>Any Latin word for a number is converted to a numeral joined with "or", e.g.,
+                    "quattuor" - &gt; "iiijor"</desc>
+            </item>
+        </group>
+        <item affects-element="work">
+            <IRI>tag:chrisnighman.com,2017:work:cpg-4425</IRI>
+            <name>CPG 4425</name>
+            <name>John Chrysostom's 88 homilies on the Gospel of John</name>
+        </item>
+        <group affects-element="source scriptum">
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:ms:bnf:lat:15284</IRI>
+                <name>Paris, Bibliothèque nationale de France, Lat. 15284</name>
+                <name>BnF Lat. 15284</name>
+                <name>BnF MS lat. 15284</name>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:ms:bl:harley:3298</IRI>
+                <name>BL MS Harley 3298</name>
+                <name>Harley 3298</name>
+                <name>British Library, MS Harley 3298</name>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:griffolini:1470</IRI>
+                <name>1470 edition by Griffolini</name>
+                <name>Griffolini 1470 edition</name>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:griffolini:1486</IRI>
+                <name>1486 edition by Griffolini</name>
+                <name>Griffolini 1486 edition</name>
+                <desc>Printed in Cologne</desc>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:erasmus:1530</IRI>
+                <name>1530 edition of Griffolini's translation by Erasmus</name>
+                <name>Erasmus 1530 edition</name>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:montfaucon:1728</IRI>
+                <name>1728 edition by Montfaucon</name>
+                <name>Montfaucon 1728 edition</name>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:patrologia-graeca:v44</IRI>
+                <name>Patrologia Graeca volume 44</name>
+            </item>
+        </group>
+        <group affects-element="morphology">
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:tan-r-mor:lat:perseus</IRI>
+                <name xml:lang="eng">Perseus Latin morphology</name>
+                <location
+                    href="../../../../../Dropbox/TAN/library-lm/lat/lat.perseus.tan-mor.xml"
+                    accessed-when="2020-03-05"/>
+                <location
+                    href="https://raw.githubusercontent.com/Arithmeticus/TAN-lexico-morphology/master/lat/lat.perseus.tan-mor.xml"
+                    accessed-when="2020-03-05"/>
+            </item>
+        </group>
+        <group affects-element="lexicon">
+            <item>
+                <IRI>https://lccn.loc.gov/56058003</IRI>
+                <IRI>http://id.lib.harvard.edu/aleph/006232021/catalog</IRI>
+                <name>Lewis and Short</name>
+                <desc xml:lang="eng">A Latin dictionary founded on Andrews' edition of Freund's
+                    Latin dictionary. Andrews, E. A. (Ethan Allen), rev., enl., and in great part
+                    rewritten by Charlton T. Lewis and Charles Short (Oxford: Clarendon Press,
+                    1951).</desc>
+            </item>
+        </group>
+    </body>
+</TAN-voc>
