@@ -5,6 +5,7 @@
     <head>
         <name>Vocabulary associated with the Chrysostomus Latinus in Iohannem Online (CLIO)
             Project</name>
+        <master-location href="https://github.com/Arithmeticus/CLIO/blob/master/TAN-voc/CLIO.TAN-voc.xml"/>
         <license which="by-sa_4.0" licensor="nighman"/>
         <adjustments>
         </adjustments>
@@ -35,12 +36,11 @@
         <resp roles="pm" who="nighman"/>
         <resp roles="editor creator" who="kalvesmaki"/>
         <resp roles="stylesheet" who="xslt1 xslt2"/>
+        <change when="2020-06-01" who="kalvesmaki">Prepped for push to git repo</change>
         <change when="2016-03-29" who="kalvesmaki">started file</change>
         <change who="xslt1" when="2018-01-06T14:19:20.632-05:00">TAN file updated to 2018 schemas.</change>
         <change who="xslt2" when="2020-03-01T09:52:10.963-05:00">Converted from 2018 to 2020 schemas.</change>
-        <to-do>
-            <comment who="xslt1" when="2018-01-06T14:19:20.632-05:00">File is still in progress.</comment>
-        </to-do>
+        <to-do/>
     </head>
     <body affects-element="person">
         <item>
