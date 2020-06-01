@@ -8,13 +8,14 @@
        TAN-version="2020">
    <head>
       <name>Explanatio in sanctum Iohannem</name>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/CLIO/master/cpg%204425%20lat%201470%20Griffolini.xml"/>
       <license which="by-sa_4.0" licensor="cn"/>
       <work which="John Chrysostom's 88 homilies on the Gospel of John"/>
       <vocabulary>
          <IRI>tag:chrisnighman.com,2017:tan-key:clio</IRI>
          <name>Vocabulary associated with the Chrysostomus Latinus in Iohannem Online (CLIO)
             Project</name>
-         <location accessed-when="2020-03-01" href="TAN-voc/CLIO.TAN-voc.xml"/>
+         <location accessed-when="2020-06-01" href="TAN-voc/CLIO.TAN-voc.xml"/>
       </vocabulary>
       <source which="Griffolini 1470 edition"/>
       <adjustments>
@@ -61,13 +62,9 @@
             <location href="../../TAN-2020/applications/convert/convert%20TAN%202017%20to%20TAN%202018.xsl"
                       accessed-when="2020-03-01"/>
          </algorithm>
-         <role xml:id="stylesheet1" which="stylesheet"/>
       </vocabulary-key>
-      <resp roles="stylesheet" who="xslt6"/>
-      <resp who="xslt6" roles="stylesheet"/>
-      <resp roles="stylesheet" who="xslt4 xslt5"/>
+      <resp roles="stylesheet" who="xslt3 xslt1 xslt2 xslt4 xslt5"/>
       <file-resp who="cn"/>
-      <resp roles="stylesheet1" who="xslt3 xslt1 xslt2"/>
       <resp roles="editor creator" who="cn"/>
       <resp roles="editor" who="jk"/>
       <change when="2017-02-27-05:00" who="jk">Began file</change>
@@ -106,12 +103,8 @@
       <change who="xslt3" when="2020-01-13T14:40:34.539-07:00">Conversion of input at zip:file:/G:/My%20Drive/CLIO%20commons/Final%20versions%20of%20homily%20transcriptions/Omelia70%20with%201530%20collation.docx!/ to TAN-T at file:/G:/My%20Drive/CLIO%20commons/TAN%20library/CLIO/cpg%204425%20lat%201470%20Griffolini-2020-01-13.xml</change>
       <change who="xslt4" when="2020-03-01T09:54:43.663-05:00">Converted from 2018 to 2020 schemas.</change>
       <change who="xslt5" when="2020-03-02T02:35:29.106-05:00">Refreshed content of TAN file from .docx.</change>
-      <to-do>
-         <comment who="xslt3" when="2020-01-13T14:40:34.539-07:00">File is still in progress.</comment>
-      </to-do>
-      <change who="xslt6" when="2020-03-08T12:41:55.854-06:00">Conversion of input at zip:file:/G:/My%20Drive/CLIO%20commons/Final%20versions%20of%20homily%20transcriptions/Omelia02%20with%201530%20collation.docx!/ to TAN-T at file:/G:/My%20Drive/CLIO%20commons/TAN%20library/CLIO/cpg%204425%20lat%201470%20Griffolini-2020-03-08.xml</change>
-      <change who="xslt6" when="2020-03-13T15:02:56.563-06:00">Conversion of input at zip:file:/G:/My%20Drive/CLIO%20commons/Final%20versions%20of%20homily%20transcriptions/Omelia81%20with%201530%20collation.docx!/ to TAN-T at file:/G:/My%20Drive/CLIO%20commons/TAN%20library/CLIO/cpg%204425%20lat%201470%20Griffolini-2020-03-13.xml</change>
-      <change who="" when="2020-05-10T15:03:20.489-06:00">Refreshed content of TAN file from .docx.</change>
+      <change when="2020-06-01" who="jk">Adjusted for typos, validation errors, to push to master repo.</change>
+      <to-do/>
    </head>
    <body xml:lang="lat">
       <div type="hom" n="1">
