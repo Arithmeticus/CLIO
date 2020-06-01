@@ -8,7 +8,7 @@
        TAN-version="2020">
    <head>
       <name>Explanatio in sanctum Iohannem</name>
-      <master-location href="https://github.com/Arithmeticus/CLIO/blob/raw/cpg%204425%20lat%201728%20Montfaucon.xml"/>
+      <master-location href="https://raw.githubusercontent.com/Arithmeticus/CLIO/master/cpg%204425%20lat%201728%20Montfaucon.xml"/>
       <license which="by-sa_4.0" licensor="cn"/>
       <work which="John Chrysostom's 88 homilies on the Gospel of John"/>
       <vocabulary>
