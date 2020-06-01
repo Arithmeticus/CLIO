@@ -5,7 +5,7 @@
     <head>
         <name>Vocabulary associated with the Chrysostomus Latinus in Iohannem Online (CLIO)
             Project</name>
-        <master-location href="https://github.com/Arithmeticus/CLIO/blob/master/TAN-voc/CLIO.TAN-voc.xml"/>
+        <master-location href="https://github.com/Arithmeticus/CLIO/raw/master/TAN-voc/CLIO.TAN-voc.xml"/>
         <license which="by-sa_4.0" licensor="nighman"/>
         <adjustments>
         </adjustments>
