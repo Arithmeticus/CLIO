@@ -118,6 +118,7 @@
       <change when="2020-06-01" who="jk">Updated for push to repo.</change>
       <change who="xslt4" when="2020-06-08T06:30:38.461-04:00">Refreshed content of TAN file from .docx.</change>
       <change who="xslt4" when="2020-06-09T12:05:51.359-04:00">Refreshed content of TAN file from .docx.</change>
+      <change who="jk" when="2020-07-15">Fixed faulty om. ref; validated everything (47 minutes).</change>
       <to-do>
          <comment who="xslt2" when="2018-04-03T20:55:11.264-06:00">File is still in progress.</comment>
       </to-do>
@@ -12276,7 +12277,7 @@
          </at-ref>
       </claim>
       <claim subject="grif1470 eras1530" verb="omits">
-         <at-ref work="grif1470" ref="1470, 1530: om. 29.2.9-14"/>
+         <at-ref work="grif1470" ref="29 2 9-14"/>
       </claim>
       <claim verb="starts">
          <subject scriptum="eras1530">
