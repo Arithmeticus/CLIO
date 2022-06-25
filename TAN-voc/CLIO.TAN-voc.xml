@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2020/schemas/TAN-voc.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:chrisnighman.com,2017:tan-key:clio" TAN-version="2020">
+<?xml-model href="../../../TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-voc.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:chrisnighman.com,2017:tan-key:clio" TAN-version="2021">
     <head>
         <name>Vocabulary associated with the Chrysostomus Latinus in Iohannem Online (CLIO)
             Project</name>
@@ -36,6 +36,7 @@
         <resp roles="pm" who="nighman"/>
         <resp roles="editor creator" who="kalvesmaki"/>
         <resp roles="stylesheet" who="xslt1 xslt2"/>
+        <change when="2021-01-23" who="kalvesmaki">Added vocab item for 1556 Montanus edition</change>
         <change when="2020-06-01" who="kalvesmaki">Prepped for push to git repo</change>
         <change when="2016-03-29" who="kalvesmaki">started file</change>
         <change who="xslt1" when="2018-01-06T14:19:20.632-05:00">TAN file updated to 2018 schemas.</change>
@@ -102,9 +103,17 @@
                 <name>British Library, MS Harley 3298</name>
             </item>
             <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:griffolini:1462</IRI>
+                <name>Griffolini autograph</name>
+                <name>1462 edition by Griffolini</name>
+                <name>Griffolini 1462 edition</name>
+                <desc>Autograph manuscript by Griffolini, incomplete.</desc>
+            </item>
+            <item>
                 <IRI>tag:chrisnighman.com,2017:scriptum:book:griffolini:1470</IRI>
                 <name>1470 edition by Griffolini</name>
                 <name>Griffolini 1470 edition</name>
+                <desc>First printed edition of Griffolini's translation</desc>
             </item>
             <item>
                 <IRI>tag:chrisnighman.com,2017:scriptum:book:griffolini:1486</IRI>
@@ -116,6 +125,21 @@
                 <IRI>tag:chrisnighman.com,2017:scriptum:book:erasmus:1530</IRI>
                 <name>1530 edition of Griffolini's translation by Erasmus</name>
                 <name>Erasmus 1530 edition</name>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:montanus:1556</IRI>
+                <name>1556 edition of Griffolini's translation by Montanus</name>
+                <name>Griffolini 1556 edition</name>
+                <name>Montanus 1556 edition</name>
+                <name>Griffolini-Montanus 1556 edition</name>
+            </item>
+            <item>
+                <IRI>tag:chrisnighman.com,2017:scriptum:book:commelin:1603</IRI>
+                <name>1603 edition of Griffolini's translation by Commelin</name>
+                <name>Commelin 1603 edition</name>
+                <desc>Published in Heidelberg. First edition to provide the Greek and Latin in
+                    parallel columns. The Greek is based on multiple manuscripts. A number of
+                    17th-century reprints depend upon this edition.</desc>
             </item>
             <item>
                 <IRI>tag:chrisnighman.com,2017:scriptum:book:montfaucon:1728</IRI>
@@ -150,5 +174,17 @@
                     1951).</desc>
             </item>
         </group>
+        <verb>
+            <IRI>tag:textalign.net,2015:verb:resumes-at</IRI>
+            <name>scriptum division starts at</name>
+            <desc>The subject, a scriptum, normally with a division specified, begins just before
+                the corresponding text referred to by &amp;at-ref&gt;. The claim takes no
+                object.</desc>
+            <constraints>
+                <subject status="required" item-type="scriptum"/>
+                <object status="disallowed"/>
+                <at-ref status="required"/>
+            </constraints>
+        </verb>
     </body>
 </TAN-voc>
